@@ -27,7 +27,7 @@ _Route6CooltrainerF1EndBattleText::
 
 _Route6CooltrainerF1AfterBattleText::
 	text "Now I understand,"
-	line "#MON isn't"
+	line "#mon isn't"
 	cont "about calculated"
 	cont "numbers."
 	done
@@ -45,7 +45,7 @@ _Route6Youngster1EndBattleText::
 _Route6Youngster1AfterBattleText::
 	text "I like bugs, so"
 	line "I'm going back to"
-	cont "VIRIDIAN FOREST."
+	cont "Viridian Forest."
 	done
 
 _Route6CooltrainerM2BattleText::
@@ -60,7 +60,7 @@ _Route6CooltrainerM2EndBattleText::
 
 _Route6CooltrainerM2AfterBattleText::
 	text "I should carry"
-	line "more #MON with"
+	line "more #mon with"
 	cont "me for safety."
 	done
 
@@ -92,13 +92,13 @@ _Route6Youngster2EndBattleText::
 	prompt
 
 _Route6Youngster2AfterBattleText::
-	text "Are my #MON"
+	text "Are my #mon"
 	line "weak? Or, am I"
 	cont "just bad?"
 	done
 
 _Route6UndergroundPathSignText::
-	text "UNDERGROUND PATH"
-	line "CERULEAN CITY -"
-	cont "VERMILION CITY"
+	text "Underground Path"
+	line "Cerulean City -"
+	cont "Vermilion City"
 	done

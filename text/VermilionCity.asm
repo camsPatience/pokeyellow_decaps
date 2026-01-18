@@ -2,19 +2,19 @@ _VermilionCityBeautyText::
 	text "We're careful"
 	line "about pollution!"
 
-	para "We've heard GRIMER"
+	para "We've heard Grimer"
 	line "multiplies in"
 	cont "toxic sludge!"
 	done
 
 _VermilionCityGambler1DidYouSeeText::
 	text "Did you see S.S."
-	line "ANNE moored in"
+	line "Anne moored in"
 	cont "the harbor?"
 	done
 
 _VermilionCityGambler1SSAnneDepartedText::
-	text "So, S.S.ANNE has"
+	text "So, S.S. Anne has"
 	line "departed!"
 
 	para "She'll be back in"
@@ -23,12 +23,12 @@ _VermilionCityGambler1SSAnneDepartedText::
 
 _VermilionCitySailor1WelcomeToSSAnneText::
 	text "Welcome to S.S."
-	line "ANNE!"
+	line "Anne!"
 	done
 
 _VermilionCitySailor1DoYouHaveATicketText::
 	text "Welcome to S.S."
-	line "ANNE!"
+	line "Anne!"
 
 	para "Excuse me, do you"
 	line "have a ticket?"
@@ -36,10 +36,10 @@ _VermilionCitySailor1DoYouHaveATicketText::
 
 _VermilionCitySailor1FlashedTicketText::
 	text "<PLAYER> flashed"
-	line "the S.S.TICKET!"
+	line "the S.S. Ticket!"
 
 	para "Great! Welcome to"
-	line "S.S.ANNE!"
+	line "S.S. Anne!"
 	done
 
 _VermilionCitySailor1YouNeedATicketText::
@@ -62,7 +62,7 @@ _VermilionCityGambler2Text::
 	line "building on this"
 	cont "plot of land."
 
-	para "My #MON is"
+	para "My #mon is"
 	line "tamping the land."
 	done
 
@@ -140,7 +140,7 @@ _VermilionCityNoticeSignText::
 
 	para "ROUTE 12 may be"
 	line "blocked off by a"
-	cont "sleeping #MON."
+	cont "sleeping #mon."
 
 	para "Detour through"
 	line "ROCK TUNNEL to"
@@ -150,14 +150,14 @@ _VermilionCityNoticeSignText::
 	done
 
 _VermilionCityPokemonFanClubSignText::
-	text "#MON FAN CLUB"
-	line "All #MON fans"
+	text "#mon FAN CLUB"
+	line "All #mon fans"
 	cont "welcome!"
 	done
 
 _VermilionCityGymSignText::
 	text "VERMILION CITY"
-	line "#MON GYM"
+	line "#mon GYM"
 	cont "LEADER: LT.SURGE"
 
 	para "The Lightning "

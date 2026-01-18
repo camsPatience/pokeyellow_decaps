@@ -1,5 +1,5 @@
 _FuchsiaGymKogaBeforeBattleText::
-	text "KOGA: Fwahahaha!"
+	text "Koga: Fwahahaha!"
 
 	para "A mere child like"
 	line "you dares to"
@@ -22,12 +22,12 @@ _FuchsiaGymKogaReceivedSoulBadgeText::
 	cont "your worth!"
 
 	para "Here! Take the"
-	line "SOULBADGE!"
+	line "SoulBadge!"
 	prompt
 
 _FuchsiaGymKogaPostBattleAdviceText::
 	text "When afflicted by"
-	line "TOXIC, #MON"
+	line "Toxic, #mon"
 	cont "suffer more and"
 	cont "more as battle"
 	cont "progresses!"
@@ -38,13 +38,13 @@ _FuchsiaGymKogaPostBattleAdviceText::
 
 _FuchsiaGymKogaSoulBadgeInfoText::
 	text "Now that you have"
-	line "the SOULBADGE,"
-	cont "the DEFENSE of"
-	cont "your #MON"
+	line "the SoulBadge,"
+	cont "the Defense of"
+	cont "your #mon"
 	cont "increases!"
 
 	para "It also lets you"
-	line "SURF outside of"
+	line "Surf outside of"
 	cont "battle!"
 
 	para "Ah! Take this"
@@ -61,7 +61,7 @@ _FuchsiaGymKogaReceivedTM06Text::
 _FuchsiaGymKogaTM06ExplanationText::
 	text_start
 	para "TM06 contains"
-	line "TOXIC!"
+	line "Toxic!"
 
 	para "It is a secret"
 	line "technique over"
@@ -76,7 +76,7 @@ _FuchsiaGymKogaTM06NoRoomText::
 _FuchsiaGymRocker1BattleText::
 	text "Strength isn't"
 	line "the key for"
-	cont "#MON!"
+	cont "#mon!"
 
 	para "It's strategy!"
 
@@ -99,7 +99,7 @@ _FuchsiaGymRocker1AfterBattleText::
 _FuchsiaGymRocker2BattleText::
 	text "I wanted to become"
 	line "a ninja, so I"
-	cont "joined this GYM!"
+	cont "joined this Gym!"
 	done
 
 _FuchsiaGymRocker2EndBattleText::
@@ -110,7 +110,7 @@ _FuchsiaGymRocker2EndBattleText::
 _FuchsiaGymRocker2AfterBattleText::
 	text "I will keep on"
 	line "training under"
-	cont "KOGA, my ninja"
+	cont "Koga, my ninja"
 	cont "master!"
 	done
 
@@ -157,7 +157,7 @@ _FuchsiaGymRocker4AfterBattleText::
 _FuchsiaGymRocker5BattleText::
 	text "I also study the"
 	line "way of the ninja"
-	cont "with master KOGA!"
+	cont "with master Koga!"
 
 	para "Ninja have a long"
 	line "history of using"
@@ -174,7 +174,7 @@ _FuchsiaGymRocker5AfterBattleText::
 	done
 
 _FuchsiaGymRocker6BattleText::
-	text "Master KOGA comes"
+	text "Master Koga comes"
 	line "from a long line"
 	cont "of ninjas!"
 
@@ -201,11 +201,11 @@ _FuchsiaGymGymGuideChampInMakingText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "FUCHSIA GYM is"
+	para "Fuchsia Gym is"
 	line "riddled with"
 	cont "invisible walls!"
 
-	para "KOGA might appear"
+	para "Koga might appear"
 	line "close, but he's"
 	cont "blocked off!"
 

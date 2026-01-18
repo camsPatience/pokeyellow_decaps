@@ -19,7 +19,7 @@ _SSAnne2FRivalText::
 	line "really invited?"
 
 	para "So how's your"
-	line "#DEX coming?"
+	line "#dex coming?"
 
 	para "I already caught"
 	line "40 kinds, pal!"
@@ -36,7 +36,7 @@ _SSAnne2FRivalDefeatedText::
 
 	para "At least you're"
 	line "raising your"
-	cont "#MON!"
+	cont "#mon!"
 	prompt
 
 _SSAnne2FRivalVictoryText::
@@ -49,13 +49,13 @@ _SSAnne2FRivalVictoryText::
 
 _SSAnne2FRivalCutMasterText::
 	text "<RIVAL>: I heard"
-	line "there was a CUT"
+	line "there was a Cut"
 	cont "master on board."
 
 	para "But, he was just a"
 	line "seasick, old man!"
 
-	para "But, CUT itself is"
+	para "But, Cut itself is"
 	line "really useful!"
 
 	para "You should go see"

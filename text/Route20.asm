@@ -9,11 +9,11 @@ _Route20Swimmer1EndBattleText::
 
 _Route20Swimmer1AfterBattleText::
 	text "I wish I could"
-	line "ride my #MON."
+	line "ride my #mon."
 	done
 
 _Route20Swimmer2BattleText::
-	text "SEAFOAM is a"
+	text "Seafoam is a"
 	line "quiet getaway!"
 	done
 
@@ -52,7 +52,7 @@ _Route20Swimmer4EndBattleText::
 	prompt
 
 _Route20Swimmer4AfterBattleText::
-	text "SEAFOAM used to"
+	text "Seafoam used to"
 	line "be one island!"
 	done
 
@@ -68,12 +68,12 @@ _Route20Swimmer5EndBattleText::
 _Route20Swimmer5AfterBattleText::
 	text "I should've been"
 	line "buffing up my"
-	cont "#MON, not me!"
+	cont "#mon, not me!"
 	done
 
 _Route20Swimmer6BattleText::
 	text "Why are you"
-	line "riding a #MON?"
+	line "riding a #mon?"
 	cont "Can't you swim?"
 	done
 
@@ -83,13 +83,13 @@ _Route20Swimmer6EndBattleText::
 	prompt
 
 _Route20Swimmer6AfterBattleText::
-	text "Riding a #MON"
+	text "Riding a #mon"
 	line "sure looks fun!"
 	done
 
 _Route20CooltrainerMBattleText::
 	text "I rode my bird"
-	line "#MON here!"
+	line "#mon here!"
 	done
 
 _Route20CooltrainerMEndBattleText::
@@ -99,7 +99,7 @@ _Route20CooltrainerMEndBattleText::
 
 _Route20CooltrainerMAfterBattleText::
 	text "My birds can't"
-	line "FLY me back!"
+	line "Fly me back!"
 	done
 
 _Route20Swimmer7BattleText::
@@ -115,12 +115,12 @@ _Route20Swimmer7EndBattleText::
 _Route20Swimmer7AfterBattleText::
 	text "Will my pearls"
 	line "grow bigger"
-	cont "inside CLOYSTER?"
+	cont "inside Cloyster?"
 	done
 
 _Route20Swimmer8BattleText::
 	text "I swam here from"
-	line "CINNABAR ISLAND!"
+	line "Cinnabar Island!"
 	done
 
 _Route20Swimmer8EndBattleText::
@@ -129,16 +129,16 @@ _Route20Swimmer8EndBattleText::
 	prompt
 
 _Route20Swimmer8AfterBattleText::
-	text "#MON have"
+	text "#mon have"
 	line "taken over an"
 	cont "abandoned mansion"
-	cont "on CINNABAR!"
+	cont "on Cinnabar!"
 	done
 
 _Route20Swimmer9BattleText::
-	text "CINNABAR, in the"
-	line "west, has a LAB"
-	cont "for #MON."
+	text "Cinnabar, in the"
+	line "west, has a Lab"
+	cont "for #mon."
 	done
 
 _Route20Swimmer9EndBattleText::
@@ -146,10 +146,10 @@ _Route20Swimmer9EndBattleText::
 	prompt
 
 _Route20Swimmer9AfterBattleText::
-	text "CINNABAR is a "
+	text "Cinnabar is a "
 	line "volcanic island!"
 	done
 
 _Route20SeafoamIslandsSignText::
-	text "SEAFOAM ISLANDS"
+	text "Seafoam Islands"
 	done

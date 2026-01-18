@@ -1,7 +1,7 @@
 _SilphCo11FSilphPresidentText::
-	text "PRESIDENT: Thank"
+	text "President: Thank"
 	line "you for saving"
-	cont "SILPH!"
+	cont "Silph!"
 
 	para "I will never"
 	line "forget you saved"
@@ -27,16 +27,16 @@ _SilphCo11FSilphPresidentReceivedMasterBallText::
 	text_end
 
 _SilphCo11FSilphPresidentMasterBallDescriptionText::
-	text "PRESIDENT: You"
+	text "President: You"
 	line "can't buy that"
 	cont "anywhere!"
 
 	para "It's our secret"
-	line "prototype MASTER"
-	cont "BALL!"
+	line "prototype Master"
+	cont "Ball!"
 
 	para "It will catch any"
-	line "#MON without"
+	line "#mon without"
 	cont "fail!"
 
 	para "You should be"
@@ -50,7 +50,7 @@ _SilphCo11FSilphPresidentNoRoomText::
 	done
 
 _SilphCo11FBeautyText::
-	text "SECRETARY: Thank"
+	text "Secretary: Thank"
 	line "you for rescuing"
 	cont "all of us!"
 
@@ -62,7 +62,7 @@ _SilphCo11FGiovanniText::
 	text "Ah, <PLAYER>!"
 	line "So we meet again!"
 
-	para "The PRESIDENT and"
+	para "The President and"
 	line "I are discussing"
 	cont "a vital business"
 	cont "proposition."
@@ -83,15 +83,15 @@ _SilphCo10FGiovanniILostAgainText::
 _SilphCo11FGiovanniYouRuinedOurPlansText::
 	text "Blast it all!"
 	line "You ruined our"
-	cont "plans for SILPH!"
+	cont "plans for Silph!"
 
-	para "But, TEAM ROCKET"
+	para "But, Team Rocket"
 	line "will never fall!"
 
 	para "<PLAYER>! Never"
 	line "forget that all"
-	cont "#MON exist"
-	cont "for TEAM ROCKET!"
+	cont "#mon exist"
+	cont "for Team Rocket!"
 
 	para "I must go, but I"
 	line "shall return!"
@@ -100,7 +100,7 @@ _SilphCo11FGiovanniYouRuinedOurPlansText::
 _SilphCo11FRocket2BattleText::
 	text "Halt! Do you have"
 	line "an appointment"
-	cont "with my BOSS?"
+	cont "with my Boss?"
 	done
 
 _SilphCo11FRocket2EndBattleText::
@@ -110,6 +110,6 @@ _SilphCo11FRocket2EndBattleText::
 
 _SilphCo11FRocket2AfterBattleText::
 	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	line "my Boss likes his"
+	cont "#mon tough!"
 	done

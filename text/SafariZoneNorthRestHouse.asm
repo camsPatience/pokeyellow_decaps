@@ -12,16 +12,16 @@ _SafariZoneNorthRestHouseScientistText::
 _SafariZoneNorthRestHouseSafariZoneWorkerText::
 	text "Go to the deepest"
 	line "part of the"
-	cont "SAFARI ZONE. You"
+	cont "Safari Zone. You"
 	cont "will win a prize!"
 	done
 
 _SafariZoneNorthRestHouseGentlemanText::
-	text "My EEVEE evolved"
-	line "into FLAREON!"
+	text "My Eevee evolved"
+	line "into Flareon!"
 
 	para "But, a friend's"
-	line "EEVEE turned into"
-	cont "a VAPOREON!"
+	line "Eevee turned into"
+	cont "a Vaporeon!"
 	cont "I wonder why?"
 	done

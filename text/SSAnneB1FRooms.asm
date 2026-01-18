@@ -1,5 +1,5 @@
 _SSAnneB1FRoomsMachokeText::
-	text "MACHOKE: Gwoh!"
+	text "Machoke: Gwoh!"
 	line "Goggoh!@"
 	text_end
 
@@ -31,13 +31,13 @@ _SSAnneB1FRoomsSailor2EndBattleText::
 
 _SSAnneB1FRoomsSailor2AfterBattleText::
 	text "Did you see the"
-	line "FISHING GURU in"
-	cont "VERMILION CITY?"
+	line "Fishing Guru in"
+	cont "Vermilion City?"
 	done
 
 _SSAnneB1FRoomsSailor3BattleText::
 	text "Us sailors have"
-	line "#MON too!"
+	line "#mon too!"
 	done
 
 _SSAnneB1FRoomsSailor3EndBattleText::
@@ -47,7 +47,7 @@ _SSAnneB1FRoomsSailor3EndBattleText::
 
 _SSAnneB1FRoomsSailor3AfterBattleText::
 	text "We caught all our"
-	line "#MON while"
+	line "#mon while"
 	cont "out at sea!"
 	done
 
@@ -62,9 +62,9 @@ _SSAnneB1FRoomsSailor4EndBattleText::
 	prompt
 
 _SSAnneB1FRoomsSailor4AfterBattleText::
-	text "Sea #MON live"
+	text "Sea #mon live"
 	line "in deep water."
-	cont "You'll need a ROD!"
+	cont "You'll need a Rod!"
 	done
 
 _SSAnneB1FRoomsSailor5BattleText::
@@ -88,7 +88,7 @@ _SSAnneB1FRoomsFisherBattleText::
 	text "Hello stranger!"
 	line "Stop and chat!"
 
-	para "All my #MON"
+	para "All my #mon"
 	line "are from the sea!"
 	done
 
@@ -105,10 +105,10 @@ _SSAnneB1FRoomsFisherAfterBattleText::
 	done
 
 _SSAnneB1FRoomsSuperNerdText::
-	text "My buddy, MACHOKE,"
+	text "My buddy, Machoke,"
 	line "is super strong!"
 
 	para "He has enough"
-	line "STRENGTH to move"
+	line "Strength to move"
 	cont "big rocks!"
 	done

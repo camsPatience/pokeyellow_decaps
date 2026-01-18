@@ -16,10 +16,10 @@ _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
 _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
 	text "Tch-tch-tch!"
 	line "That's the sound"
-	cont "of a METRONOME!"
+	cont "of a Metronome!"
 
 	para "It tweaks your"
-	line "#MON's brain"
+	line "#mon's brain"
 	cont "into using moves"
 	cont "it doesn't know!"
 	done
@@ -30,9 +30,9 @@ _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
 	done
 
 _CinnabarLabMetronomeRoomScientist2Text::
-	text "EEVEE can evolve"
+	text "Eevee can evolve"
 	line "into 1 of 3 kinds"
-	cont "of #MON."
+	cont "of #mon."
 	done
 
 _CinnabarLabMetronomeRoomPCText::
@@ -42,19 +42,19 @@ _CinnabarLabMetronomeRoomPCText::
 	para "..."
 
 	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
+	line "bird #mon are"
+	cont "Articuno, Zapdos"
+	cont "and Moltres."
 
 	para "Their whereabouts"
 	line "are unknown."
 
 	para "We plan to explore"
 	line "the cavern close"
-	cont "to CERULEAN."
+	cont "to Cerulean."
 
-	para "From: #MON"
-	line "RESEARCH TEAM"
+	para "From: #mon"
+	line "Research Team"
 
 	para "..."
 	done

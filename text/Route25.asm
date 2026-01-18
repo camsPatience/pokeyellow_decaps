@@ -10,7 +10,7 @@ _Route25Youngster1EndBattleText::
 	prompt
 
 _Route25Youngster1AfterBattleText::
-	text "All #MON have"
+	text "All #mon have"
 	line "weaknesses. It's"
 	cont "best to raise"
 	cont "different kinds."
@@ -19,8 +19,8 @@ _Route25Youngster1AfterBattleText::
 _Route25Youngster2BattleText::
 	text "Dad took me to a"
 	line "great party on"
-	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
+	cont "S.S. Anne at"
+	cont "Vermilion City!"
 	done
 
 _Route25Youngster2EndBattleText::
@@ -29,7 +29,7 @@ _Route25Youngster2EndBattleText::
 	prompt
 
 _Route25Youngster2AfterBattleText::
-	text "On S.S.ANNE, I"
+	text "On S.S. Anne, I"
 	line "saw trainers from"
 	cont "around the world."
 	done
@@ -76,7 +76,7 @@ _Route25Youngster3EndBattleText::
 	prompt
 
 _Route25Youngster3AfterBattleText::
-	text "If your #MON"
+	text "If your #mon"
 	line "gets confused or"
 	cont "falls asleep,"
 	cont "switch it!"
@@ -84,7 +84,7 @@ _Route25Youngster3AfterBattleText::
 
 _Route25CooltrainerF2BattleText::
 	text "My friend has a"
-	line "cute #MON."
+	line "cute #mon."
 	cont "I'm so jealous!"
 	done
 
@@ -94,14 +94,14 @@ _Route25CooltrainerF2EndBattleText::
 	prompt
 
 _Route25CooltrainerF2AfterBattleText::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	text "You came from Mt."
+	line "Moon? May I have"
+	cont "a Clefairy?"
 	done
 
 _Route25Hiker1BattleText::
 	text "I just got down"
-	line "from MT.MOON,"
+	line "from Mt. Moon,"
 	cont "but I'm ready!"
 	done
 
@@ -112,13 +112,13 @@ _Route25Hiker1EndBattleText::
 
 _Route25Hiker1AfterBattleText::
 	text "Drat!"
-	line "A ZUBAT bit me"
+	line "A Zubat bit me"
 	cont "back in there."
 	done
 
 _Route25Hiker2BattleText::
 	text "I'm off to see a"
-	line "#MON collector"
+	line "#mon collector"
 	cont "at the cape!"
 	done
 
@@ -130,12 +130,12 @@ _Route25Hiker2EndBattleText::
 _Route25Hiker2AfterBattleText::
 	text "The collector has"
 	line "many rare kinds"
-	cont "of #MON."
+	cont "of #mon."
 	done
 
 _Route25Hiker3BattleText::
 	text "You're going to"
-	line "see BILL? First,"
+	line "see Bill? First,"
 	cont "let's fight!"
 	done
 
@@ -147,10 +147,10 @@ _Route25Hiker3EndBattleText::
 _Route25Hiker3AfterBattleText::
 	text "The trail below"
 	line "is a shortcut to"
-	cont "CERULEAN CITY."
+	cont "Cerulean."
 	done
 
 _Route25BillSignText::
-	text "SEA COTTAGE"
-	line "BILL lives here!"
+	text "Sea Cottage"
+	line "Bill lives here!"
 	done

@@ -546,12 +546,12 @@ PointerTable_f56ee::
 Text_f56f4::
 	db "LVs of 3<PKMN>:50-55"
 	next "Sum of LVs:155 MAX"
-	next "MEW can't attend.@"
+	next "Mew can't attend.@"
 
 Text_f5728::
 	db "LVs of 3<PKMN>:15-20"
 	next "Sum of LVs:50 MAX"
-	next "MEW can't attend.@"
+	next "Mew can't attend.@"
 
 Text_f575b::
 	db "3 Basic <PKMN>.LV25-30"
@@ -566,7 +566,7 @@ Text_f579c::
 	db "# Cup"
 	next "Pika Cup"
 	next "Petit Cup"
-	next "CANCEL@"
+	next "Cancel@"
 
 Colosseum3MonsText::
 	text_far _Colosseum3MonsText
@@ -912,7 +912,7 @@ TextTerminator_f5a16:
 	text_end
 
 TradeCenterText:
-	db   "TRADE CENTER"
-	next "COLOSSEUM"
-	next "COLOSSEUM2"
-	next "CANCEL@"
+	db   "Trade Center"
+	next "Colosseum"
+	next "Colosseum2"
+	next "Cancel@"

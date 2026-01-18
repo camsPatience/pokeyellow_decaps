@@ -1,5 +1,5 @@
 _SSAnne1FRoomsWigglytuffText::
-	text "WIGGLYTUFF: Puup"
+	text "Wigglytuff: Puup"
 	line "pupuu!@"
 	text_end
 
@@ -7,7 +7,7 @@ _SSAnne1FRoomsGentleman1BattleText::
 	text "I travel alone"
 	line "on my journeys!"
 
-	para "My #MON are my"
+	para "My #mon are my"
 	line "only friends!"
 	done
 
@@ -37,7 +37,7 @@ _SSAnne1FRoomsGentleman2AfterBattleText::
 	done
 
 _SSAnne1FRoomsYoungsterBattleText::
-	text "I love #MON!"
+	text "I love #mon!"
 	line "Do you?"
 	done
 
@@ -51,12 +51,12 @@ _SSAnne1FRoomsYoungsterAfterBattleText::
 	line "friend, OK?"
 
 	para "Then we can trade"
-	line "#MON!"
+	line "#mon!"
 	done
 
 _SSAnne1FRoomsCooltrainerFBattleText::
 	text "I collected these"
-	line "#MON from all"
+	line "#mon from all"
 	cont "around the world!"
 	done
 
@@ -68,11 +68,11 @@ _SSAnne1FRoomsCooltrainerFEndBattleText::
 
 _SSAnne1FRoomsCooltrainerFAfterBattleText::
 	text "You hurt my poor"
-	line "worldly #MON!"
+	line "worldly #mon!"
 
 	para "I demand that you"
 	line "heal them at a"
-	cont "#MON CENTER!"
+	cont "#mon Center!"
 	done
 
 _SSAnne1FRoomsGirl1Text::
@@ -88,7 +88,7 @@ _SSAnne1FRoomsMiddleAgedManText::
 
 _SSAnne1FRoomsLittleGirlText::
 	text "I always travel"
-	line "with WIGGLYTUFF!"
+	line "with Wigglytuff!"
 	done
 
 _SSAnne1FRoomsGirl2Text::
@@ -97,9 +97,9 @@ _SSAnne1FRoomsGirl2Text::
 	done
 
 _SSAnne1FRoomsGentleman3Text::
-	text "Ssh! I'm a GLOBAL"
-	line "POLICE agent!"
+	text "Ssh! I'm a Global"
+	line "Police agent!"
 
 	para "I'm on the trail"
-	line "of TEAM ROCKET!"
+	line "of Team Rocket!"
 	done

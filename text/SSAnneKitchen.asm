@@ -25,7 +25,7 @@ _SSAnneKitchenCook4Text::
 
 _SSAnneKitchenCook5Text::
 	text "Did you hear about"
-	line "SNORLAX?"
+	line "Snorlax?"
 
 	para "All it does is"
 	line "eat and sleep!"
@@ -41,7 +41,7 @@ _SSAnneKitchenCook6Text::
 
 _SSAnneKitchenCook7MainCourseIsText::
 	text "Er-hem! Indeed I"
-	line "am le CHEF!"
+	line "am le Chef!"
 
 	para "Le main course is"
 	prompt

@@ -1,22 +1,22 @@
 _SafariZoneNorthRestHouseSignText::
-	text "REST HOUSE"
+	text "Rest House"
 	done
 
 _SafariZoneNorthTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
-	para "The SECRET HOUSE"
+	para "The Secret House"
 	line "is still ahead!"
 	done
 
 _SafariZoneNorthSignText::
-	text "AREA 2"
+	text "Area 2"
 	done
 
 _SafariZoneNorthTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
-	para "#MON hide in"
+	para "#mon hide in"
 	line "tall grass!"
 
 	para "Zigzag through"
@@ -25,9 +25,9 @@ _SafariZoneNorthTrainerTips2Text::
 	done
 
 _SafariZoneNorthTrainerTips3Text::
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Win a free HM for"
 	line "finding the"
-	cont "SECRET HOUSE!"
+	cont "Secret House!"
 	done

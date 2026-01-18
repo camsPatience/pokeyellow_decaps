@@ -9,7 +9,7 @@ _RockTunnel1FHiker1EndBattleText::
 	prompt
 
 _RockTunnel1FHiker1AfterBattleText::
-	text "Watch for ONIX!"
+	text "Watch for Onix!"
 	line "It can put the"
 	cont "squeeze on you!"
 	done
@@ -27,7 +27,7 @@ _RockTunnel1FHiker2EndBattleText::
 
 _RockTunnel1FHiker2AfterBattleText::
 	text "That sleeping"
-	line "#MON on ROUTE"
+	line "#mon on Route"
 	cont "12 forced me to"
 	cont "take this detour."
 	done
@@ -48,7 +48,7 @@ _RockTunnel1FHiker3AfterBattleText::
 	done
 
 _RockTunnel1FSuperNerdBattleText::
-	text "#MON fight!"
+	text "#mon fight!"
 	line "Ready, go!"
 	done
 
@@ -59,7 +59,7 @@ _RockTunnel1FSuperNerdEndBattleText::
 
 _RockTunnel1FSuperNerdAfterBattleText::
 	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	line "a Zubat as I go!"
 	done
 
 _RockTunnel1FCooltrainerF1BattleText::
@@ -74,18 +74,18 @@ _RockTunnel1FCooltrainerF1EndBattleText::
 	prompt
 
 _RockTunnel1FCooltrainerF1AfterBattleText::
-	text "I saw a MACHOP"
+	text "I saw a Machop"
 	line "in this tunnel!"
 	done
 
 _RockTunnel1FCooltrainerF2BattleText::
 	text "I came this far"
-	line "for #MON!"
+	line "for #mon!"
 	done
 
 _RockTunnel1FCooltrainerF2EndBattleText::
 	text "I'm"
-	line "out of #MON!"
+	line "out of #mon!"
 	prompt
 
 _RockTunnel1FCooltrainerF2AfterBattleText::
@@ -94,7 +94,7 @@ _RockTunnel1FCooltrainerF2AfterBattleText::
 	done
 
 _RockTunnel1FCooltrainerF3BattleText::
-	text "You have #MON!"
+	text "You have #mon!"
 	line "Let's start!"
 	done
 
@@ -109,7 +109,7 @@ _RockTunnel1FCooltrainerF3AfterBattleText::
 	done
 
 _RockTunnel1FSignText::
-	text "ROCK TUNNEL"
-	line "CERULEAN CITY -"
-	cont "LAVENDER TOWN"
+	text "Rock Tunnel"
+	line "Cerulean City -"
+	cont "Lavender Town"
 	done

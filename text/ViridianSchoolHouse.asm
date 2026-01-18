@@ -5,7 +5,7 @@ _ViridianSchoolHouseBrunetteGirlText::
 	done
 
 _ViridianSchoolHouseLittleGirlText::
-	text "Sis says #MON"
+	text "Sis says #mon"
 	line "will become tame"
 	cont "if you treat them"
 	cont "nicely."

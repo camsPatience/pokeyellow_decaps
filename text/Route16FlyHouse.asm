@@ -14,7 +14,7 @@ _Route16FlyHouseBrunetteGirlReceivedHM02Text::
 	text_end
 
 _Route16FlyHouseBrunetteGirlHM02ExplanationText::
-	text "HM02 is FLY."
+	text "HM02 is Fly."
 	line "It will take you"
 	cont "back to any town."
 
@@ -28,5 +28,5 @@ _Route16FlyHouseBrunetteGirlHM02NoRoomText::
 	done
 
 _Route16FlyHouseFearowText::
-	text "FEAROW: Kyueen!"
+	text "Fearow: Kyueen!"
 	done

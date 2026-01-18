@@ -4,7 +4,7 @@ _MtMoonJessieJamesText1::
 
 _MtMoonJessieJamesText2::
 	text "That fossil is"
-	line "TEAM ROCKET's!"
+	line "Team Rocket's!"
 
 	para "Surrender now, or "
 	line "prepare to fight!"
@@ -16,19 +16,19 @@ _MtMoonJessieJamesText3::
 	prompt
 
 _MtMoonJessieJamesText4::
-	text "TEAM ROCKET, blast"
+	text "Team Rocket, blast"
 	line "off at the speed"
 	cont "of light!@"
 	text_end
 
 _MtMoonB2FDomeFossilYouWantText::
 	text "You want the"
-	line "DOME FOSSIL?"
+	line "Dome Fossil?"
 	done
 
 _MtMoonB2FHelixFossilYouWantText::
 	text "You want the"
-	line "HELIX FOSSIL?"
+	line "Helix Fossil?"
 	done
 
 _MtMoonB2FReceivedFossilText::
@@ -64,9 +64,9 @@ _MtMoonB2fSuperNerdEachTakeOneText::
 
 _MtMoonB2FSuperNerdTheresAPokemonLabText::
 	text "Far away, on"
-	line "CINNABAR ISLAND,"
-	cont "there's a #MON"
-	cont "LAB."
+	line "Cinnabar Island,"
+	cont "there's a #mon"
+	cont "Lab."
 
 	para "They do research"
 	line "on regenerating"
@@ -79,8 +79,8 @@ _MtMoonB2FSuperNerdThenThisIsMineText::
 	text_end
 
 _MtMoonB2FRocket2BattleText::
-	text "We, TEAM ROCKET,"
-	line "are #MON"
+	text "We, Team Rocket,"
+	line "are #mon"
 	cont "gangsters!"
 	done
 
@@ -124,7 +124,7 @@ _MtMoonB2FRocket4EndBattleText::
 	prompt
 
 _MtMoonB2FRocket4AfterBattleText::
-	text "#MON lived"
+	text "#mon lived"
 	line "here long before"
 	cont "people came."
 	done

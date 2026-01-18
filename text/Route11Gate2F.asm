@@ -3,7 +3,7 @@ _Route11Gate2FOaksAideItemfinderDescriptionText::
 	line "the ground that"
 	cont "can't be seen."
 
-	para "ITEMFINDER will"
+	para "Itemfinder will"
 	line "detect an item"
 	cont "close to you."
 
@@ -16,7 +16,7 @@ _Route11Gate2FLeftBinocularsSnorlaxText::
 	text "Looked into the"
 	line "binoculars."
 
-	para "A big #MON is"
+	para "A big #mon is"
 	line "asleep on a road!"
 	done
 
@@ -33,8 +33,8 @@ _Route11Gate2FRightBinocularsText::
 	line "binoculars."
 
 	para "The only way to"
-	line "get from CERULEAN"
-	cont "CITY to LAVENDER"
+	line "get from Cerulean"
+	cont "City to Lavender"
 	cont "is by way of the"
-	cont "ROCK TUNNEL."
+	cont "Rock Tunnel."
 	done

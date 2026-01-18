@@ -15,14 +15,14 @@ TradeMons:
 	; Red/Blue uses the original JP Red/Green trades but with the JP Blue
 	; post-trade text. English Yellow changed _AfterTrade2Text to
 	; not mention evolution.
-	npctrade LICKITUNG,  DUGTRIO,  TRADE_DIALOGSET_CASUAL,    "GURIO"
-	npctrade CLEFAIRY,   MR_MIME,  TRADE_DIALOGSET_CASUAL,    "MILES"
-	npctrade BUTTERFREE, BEEDRILL, TRADE_DIALOGSET_HAPPY,     "STINGER" ; unused
-	npctrade KANGASKHAN, MUK,      TRADE_DIALOGSET_CASUAL,    "STICKY"
-	npctrade MEW,        MEW,      TRADE_DIALOGSET_HAPPY,     "BART"    ; unused
-	npctrade TANGELA,    PARASECT, TRADE_DIALOGSET_CASUAL,    "SPIKE"
-	npctrade PIDGEOT,    PIDGEOT,  TRADE_DIALOGSET_EVOLUTION, "MARTY"   ; unused
-	npctrade GOLDUCK,    RHYDON,   TRADE_DIALOGSET_EVOLUTION, "BUFFY"
-	npctrade GROWLITHE,  DEWGONG,  TRADE_DIALOGSET_HAPPY,     "CEZANNE"
-	npctrade CUBONE,     MACHOKE,  TRADE_DIALOGSET_HAPPY,     "RICKY"
+	npctrade LICKITUNG,  DUGTRIO,  TRADE_DIALOGSET_CASUAL,    "Gurio"
+	npctrade CLEFAIRY,   MR_MIME,  TRADE_DIALOGSET_CASUAL,    "Miles"
+	npctrade BUTTERFREE, BEEDRILL, TRADE_DIALOGSET_HAPPY,     "Stinger" ; unused
+	npctrade KANGASKHAN, MUK,      TRADE_DIALOGSET_CASUAL,    "Sticky"
+	npctrade MEW,        MEW,      TRADE_DIALOGSET_HAPPY,     "Bart"    ; unused
+	npctrade TANGELA,    PARASECT, TRADE_DIALOGSET_CASUAL,    "Spike"
+	npctrade PIDGEOT,    PIDGEOT,  TRADE_DIALOGSET_EVOLUTION, "Marty"   ; unused
+	npctrade GOLDUCK,    RHYDON,   TRADE_DIALOGSET_EVOLUTION, "Buffy"
+	npctrade GROWLITHE,  DEWGONG,  TRADE_DIALOGSET_HAPPY,     "Cezanne"
+	npctrade CUBONE,     MACHOKE,  TRADE_DIALOGSET_HAPPY,     "Ricky"
 	assert_table_length NUM_NPC_TRADES

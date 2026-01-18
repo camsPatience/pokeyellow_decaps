@@ -9,7 +9,7 @@ _CeruleanCityRivalPreBattleText::
 	para "I'm doing great!"
 	line "I caught a bunch"
 	cont "of strong and"
-	cont "smart #MON!"
+	cont "smart #mon!"
 
 	para "Here, let me see"
 	line "what you caught,"
@@ -32,21 +32,21 @@ _CeruleanCityRivalIWentToBillsText::
 	text "<RIVAL>: Hey,"
 	line "guess what?"
 
-	para "I went to BILL's"
+	para "I went to Bill's"
 	line "and got him to"
 	cont "show me his rare"
-	cont "#MON!"
+	cont "#mon!"
 
 	para "That added a lot"
 	line "of pages to my"
-	cont "#DEX!"
+	cont "#dex!"
 
-	para "After all, BILL's"
+	para "After all, Bill's"
 	line "world famous as a"
-	cont "#MANIAC!"
+	cont "# Maniac!"
 
 	para "He invented the"
-	line "#MON Storage"
+	line "#mon Storage"
 	cont "System on PC!"
 
 	para "Since you're using"
@@ -118,7 +118,7 @@ _CeruleanCitySuperNerd1Text::
 _CeruleanCitySuperNerd2Text::
 	text "You're making an"
 	line "encyclopedia on"
-	cont "#MON? That"
+	cont "#mon? That"
 	cont "sounds amusing."
 	done
 
@@ -127,64 +127,64 @@ _CeruleanCityGuardText::
 	line "here were robbed."
 
 	para "We're positive"
-	line "that TEAM ROCKET"
+	line "that Team Rocket"
 	cont "is behind this"
 	cont "terrible deed."
 
-	para "Even our POLICE"
-	line "FORCE has trouble"
-	cont "with the ROCKETs!"
+	para "Even our police"
+	line "force has trouble"
+	cont "with the Rockets!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodeUseSonicboomText::
-	text "OK! ELECTRODE!"
-	line "Use SONICBOOM!"
-	cont "Please ELECTRODE,"
+	text "OK! Electrode!"
+	line "Use Sonic Boom!"
+	cont "Please Electrode,"
 	cont "pay attention!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodePunchText::
-	text "ELECTRODE, TACKLE!"
+	text "Electrode, Tackle!"
 	line "No! You blew it"
 	cont "again!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodeWithdrawText::
-	text "ELECTRODE, SWIFT!"
+	text "Electrode, Swift!"
 	line "No! That's wrong!"
 
-	para "Training #MON"
+	para "Training #mon"
 	line "is difficult!"
 
-	para "Your #MON's"
+	para "Your #mon's"
 	line "obedience depends"
 	cont "on your abilities"
 	cont "as a trainer!"
 	done
 
 _CeruleanCityElectrodeTookASnoozeText::
-	text "ELECTRODE took a"
+	text "Electrode took a"
 	line "snooze..."
 	done
 
 _CeruleanCityElectrodeIsLoafingAroundText::
-	text "ELECTRODE is"
+	text "Electrode is"
 	line "loafing around..."
 	done
 
 _CeruleanCityElectrodeTurnedAwayText::
-	text "ELECTRODE turned"
+	text "Electrode turned"
 	line "away..."
 	done
 
 _CeruleanCityElectrodeIgnoredOrdersText::
-	text "ELECTRODE"
+	text "Electrode"
 	line "ignored orders..."
 	done
 
 _CeruleanCityCooltrainerF2Text::
 	text "I want a bright"
-	line "red BICYCLE!"
+	line "red Bicycle!"
 
 	para "I'll keep it at"
 	line "home, so it won't"
@@ -192,26 +192,26 @@ _CeruleanCityCooltrainerF2Text::
 	done
 
 _CeruleanCitySuperNerd3Text::
-	text "This is CERULEAN"
-	line "CAVE! Horribly"
-	cont "strong #MON"
+	text "This is Cerulean"
+	line "Cave! Horribly"
+	cont "strong #mon"
 	cont "live in there!"
 
-	para "The #MON LEAGUE"
+	para "The #mon League"
 	line "champion is the"
 	cont "only person who"
 	cont "is allowed in!"
 	done
 
 _CeruleanCitySignText::
-	text "CERULEAN CITY"
+	text "Cerulean City"
 	line "A Mysterious,"
 	cont "Blue Aura"
 	cont "Surrounds It"
 	done
 
 _CeruleanCityTrainerTipsText::
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Pressing B Button"
 	line "during evolution"
@@ -222,13 +222,13 @@ _CeruleanCityTrainerTipsText::
 _CeruleanCityBikeShopSign::
 	text "Grass and caves"
 	line "handled easily!"
-	cont "BIKE SHOP"
+	cont "Bike Shop"
 	done
 
 _CeruleanCityGymSign::
-	text "CERULEAN CITY"
-	line "#MON GYM"
-	cont "LEADER: MISTY"
+	text "Cerulean City"
+	line "#mon Gym"
+	cont "Leader: Misty"
 
 	para "The Tomboyish"
 	line "Mermaid!"

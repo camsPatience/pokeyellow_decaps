@@ -5,12 +5,12 @@ _BillsHouseBillDontLeaveText::
 
 _BillsHouseBillImNotAPokemonText::
 	text "Hiya! I'm a"
-	line "#MON..."
+	line "#mon..."
 	cont "...No I'm not!"
 
-	para "Call me BILL!"
+	para "Call me Bill!"
 	line "I'm a true blue"
-	cont "#MANIAC! Hey!"
+	cont "# Maniac! Hey!"
 	cont "What's with that"
 	cont "skeptical look?"
 
@@ -18,7 +18,7 @@ _BillsHouseBillImNotAPokemonText::
 	line "you, I screwed up"
 	cont "an experiment and"
 	cont "got combined with"
-	cont "a #MON!"
+	cont "a #mon!"
 
 	para "So, how about it?"
 	line "Help me out here!"
@@ -26,7 +26,7 @@ _BillsHouseBillImNotAPokemonText::
 
 _BillsHouseBillUseSeparationSystemText::
 	text "When I'm in the"
-	line "TELEPORTER, go to"
+	line "Teleporter, go to"
 	cont "my PC and run the"
 	cont "Cell Separation"
 	cont "System!"
@@ -43,12 +43,12 @@ _BillsHouseBillNoYouGottaHelpText::
 	prompt
 
 _BillsHouseBillThankYouText::
-	text "BILL: Yeehah!"
+	text "Bill: Yeehah!"
 	line "Thanks, bud! I"
 	cont "owe you one!"
 
 	para "So, did you come"
-	line "to see my #MON"
+	line "to see my #mon"
 	cont "collection?"
 	cont "You didn't?"
 	cont "That's a bummer."
@@ -72,8 +72,8 @@ _SSTicketNoRoomText::
 
 _BillsHouseBillWhyDontYouGoInsteadOfMeText::
 	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
+	line "S.S. Anne, is in"
+	cont "Vermilion City."
 	cont "Its passengers"
 	cont "are all trainers!"
 
@@ -86,8 +86,8 @@ _BillsHouseBillWhyDontYouGoInsteadOfMeText::
 	done
 
 _BillsHouseBillCheckOutMyRarePokemonText::
-	text "BILL: Look, bud,"
+	text "Bill: Look, bud,"
 	line "just check out"
 	cont "some of my rare"
-	cont "#MON on my PC!"
+	cont "#mon on my PC!"
 	done

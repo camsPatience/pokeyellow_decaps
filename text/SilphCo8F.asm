@@ -1,5 +1,5 @@
 __SilphCo8FSilphWorkerMThanksForSavingUsText::
-	text "I wonder if SILPH"
+	text "I wonder if Silph"
 	line "is finished..."
 	done
 
@@ -36,13 +36,13 @@ _SilphCo8FScientistEndBattleText::
 
 _SilphCo8FScientistAfterBattleText::
 	text "So, what do you"
-	line "think of SILPH"
-	cont "BUILDING's maze?"
+	line "think of Silph"
+	cont "Building's maze?"
 	done
 
 _SilphCo8FRocket2BattleText::
 	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	line "Rocket Brothers!"
 	done
 
 _SilphCo8FRocket2EndBattleText::
