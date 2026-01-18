@@ -1,5 +1,5 @@
 _PokemonText::
-	text "#MON!"
+	text "#mon!"
 	done
 
 _PokemartGreetingText::
@@ -15,14 +15,14 @@ _PokemonFaintedText::
 
 _PlayerBlackedOutText::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "useable #mon!"
 
 	para "<PLAYER> blacked"
 	line "out!"
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
+	text "Repel's effect"
 	line "wore off."
 	done
 
@@ -162,26 +162,26 @@ _HMCantDeleteText::
 
 _PokemonCenterWelcomeText::
 	text "Welcome to our"
-	line "#MON CENTER!"
+	line "#mon Center!"
 
 	para "We heal your"
-	line "#MON back to"
+	line "#mon back to"
 	cont "perfect health!"
 	prompt
 
 _ShallWeHealYourPokemonText::
 	text "Shall we heal your"
-	line "#MON?"
+	line "#mon?"
 	done
 
 _NeedYourPokemonText::
 	text "OK. We'll need"
-	line "your #MON."
+	line "your #mon."
 	done
 
 _PokemonFightingFitText::
 	text "Thank you!"
-	line "Your #MON are"
+	line "Your #mon are"
 	cont "fighting fit!"
 	prompt
 

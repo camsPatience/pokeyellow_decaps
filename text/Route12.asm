@@ -1,17 +1,17 @@
 _Route12SnorlaxText::
-	text "A sleeping #MON"
+	text "A sleeping #mon"
 	line "blocks the way!"
 	done
 
 _Route12SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "Snorlax woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
 	done
 
 _Route12SnorlaxCalmedDownText::
-	text "SNORLAX calmed"
+	text "Snorlax calmed"
 	line "down! With a big"
 	cont "yawn, it returned"
 	cont "to the mountains!"
@@ -44,14 +44,14 @@ _Route12Fisher2EndBattleText::
 	prompt
 
 _Route12Fisher2AfterBattleText::
-	text "With a better ROD,"
+	text "With a better Rod,"
 	line "I could catch"
-	cont "better #MON!"
+	cont "better #mon!"
 	done
 
 _Route12CooltrainerMBattleText::
 	text "Have you found a"
-	line "MOON STONE?"
+	line "Moon Stone?"
 	done
 
 _Route12CooltrainerMEndBattleText::
@@ -60,8 +60,8 @@ _Route12CooltrainerMEndBattleText::
 
 _Route12CooltrainerMAfterBattleText::
 	text "I could have made"
-	line "my #MON evolve"
-	cont "with MOON STONE!"
+	line "my #mon evolve"
+	cont "with Moon Stone!"
 	done
 
 _Route12SuperNerdBattleText::
@@ -77,12 +77,12 @@ _Route12SuperNerdAfterBattleText::
 	text "Water conducts"
 	line "electricity, so"
 	cont "you should zap"
-	cont "sea #MON!"
+	cont "sea #mon!"
 	done
 
 _Route12Fisher3BattleText::
-	text "The FISHING FOOL"
-	line "vs. #MON KID!"
+	text "The Fishing Fool"
+	line "vs. #mon Kid!"
 	done
 
 _Route12Fisher3EndBattleText::
@@ -92,7 +92,7 @@ _Route12Fisher3EndBattleText::
 
 _Route12Fisher3AfterBattleText::
 	text "You beat me at"
-	line "#MON, but I'm"
+	line "#mon, but I'm"
 	cont "good at fishing!"
 	done
 
@@ -124,16 +124,16 @@ _Route12Fisher5EndBattleText::
 	prompt
 
 _Route12Fisher5AfterBattleText::
-	text "I catch MAGIKARP"
+	text "I catch Magikarp"
 	line "all the time, but"
 	cont "they're so weak!"
 	done
 
 _Route12SignText::
-	text "ROUTE 12 "
-	line "North to LAVENDER"
+	text "Route 12 "
+	line "North to Lavender"
 	done
 
 _Route12SportFishingSignText::
-	text "SPORT FISHING AREA"
+	text "Sport Fishing Area"
 	done

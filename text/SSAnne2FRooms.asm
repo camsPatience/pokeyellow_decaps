@@ -1,7 +1,7 @@
 _SSAnne2FRoomsGentleman3Text::
 	text "In all my travels,"
 	line "I've never seen"
-	cont "any #MON sleep"
+	cont "any #mon sleep"
 	cont "like this one!"
 
 	para "It was something"
@@ -10,13 +10,13 @@ _SSAnne2FRoomsGentleman3Text::
 
 _SSAnne2FRoomsGentleman4Text::
 	text "Ah yes, I have"
-	line "seen some #MON"
+	line "seen some #mon"
 	cont "ferry people"
 	cont "across the water!"
 	done
 
 _SSAnne2FRoomsGrampsText::
-	text "#MON can CUT"
+	text "#mon can Cut"
 	line "down small bushes."
 	done
 
@@ -58,7 +58,7 @@ _SSAnne2FRoomsFisherAfterBattleText::
 _SSAnne2FRoomsGentleman2BattleText::
 	text "Which do you like,"
 	line "a strong or a"
-	cont "rare #MON?"
+	cont "rare #mon?"
 	done
 
 _SSAnne2FRoomsGentleman2EndBattleText::
@@ -68,7 +68,7 @@ _SSAnne2FRoomsGentleman2EndBattleText::
 
 _SSAnne2FRoomsGentleman2AfterBattleText::
 	text "I prefer strong"
-	line "and rare #MON."
+	line "and rare #mon."
 	done
 
 _SSAnne2FRoomsCooltrainerFBattleText::
@@ -83,26 +83,26 @@ _SSAnne2FRoomsCooltrainerFEndBattleText::
 
 _SSAnne2FRoomsCooltrainerFAfterBattleText::
 	text "Oh, I adore your"
-	line "strong #MON!"
+	line "strong #mon!"
 	done
 
 _SSAnne2FRoomsGentleman5Text::
 	text "Have you gone to"
-	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
+	line "the Safari Zone"
+	cont "in Fuchsia City?"
 
 	para "It had many rare"
-	line "kinds of #MON!!"
+	line "kinds of #mon!!"
 	done
 
 _SSAnne2FRoomsLittleBoyText::
 	text "Me and my Daddy"
-	line "think the SAFARI"
-	cont "ZONE is awesome!"
+	line "think the Safari"
+	cont "Zone is awesome!"
 	done
 
 _SSAnne2FRoomsBrunetteGirlText::
-	text "The CAPTAIN looked"
+	text "The Captain looked"
 	line "really sick and"
 	cont "pale!"
 	done

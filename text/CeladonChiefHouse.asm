@@ -5,17 +5,17 @@ _CeladonChiefHouseChiefText::
 	done
 
 _CeladonChiefHouseRocketText::
-	text "CHIEF!"
+	text "Chief!"
 
 	para "We just shipped"
-	line "2000 #MON as"
+	line "2000 #mon as"
 	cont "slot prizes!"
 	done
 
 _CeladonChiefHouseSailorText::
 	text "Don't touch the"
 	line "poster at the"
-	cont "GAME CORNER!"
+	cont "Game Corner!"
 
 	para "There's no secret"
 	line "switch behind it!"

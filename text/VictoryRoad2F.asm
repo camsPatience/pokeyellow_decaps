@@ -3,7 +3,7 @@ _VictoryRoad2FMoltresBattleText::
 	text_end
 
 _VictoryRoad2FHikerBattleText::
-	text "VICTORY ROAD is"
+	text "Victory Road is"
 	line "the final test"
 	cont "for trainers!"
 	done
@@ -21,7 +21,7 @@ _VictoryRoad2FHikerAfterBattleText::
 _VictoryRoad2FSuperNerd1BattleText::
 	text "Ah, so you wish"
 	line "to challenge the"
-	cont "ELITE FOUR?"
+	cont "Elite Four?"
 	done
 
 _VictoryRoad2FSuperNerd1EndBattleText::
@@ -47,14 +47,14 @@ _VictoryRoad2FCooltrainerMEndBattleText::
 _VictoryRoad2FCooltrainerMAfterBattleText::
 	text "You earned the"
 	line "right to be on"
-	cont "VICTORY ROAD!"
+	cont "Victory Road!"
 	done
 
 _VictoryRoad2FSuperNerd2BattleText::
 	text "If you can get"
 	line "through here, you"
 	cont "can go meet the"
-	cont "ELITE FOUR!"
+	cont "Elite Four!"
 	done
 
 _VictoryRoad2FSuperNerd2EndBattleText::
@@ -66,11 +66,11 @@ _VictoryRoad2FSuperNerd2AfterBattleText::
 	text "I can beat you"
 	line "when it comes to"
 	cont "knowledge about"
-	cont "#MON!"
+	cont "#mon!"
 	done
 
 _VictoryRoad2FSuperNerd3BattleText::
-	text "Is VICTORY ROAD"
+	text "Is Victory Road"
 	line "too tough?"
 	done
 

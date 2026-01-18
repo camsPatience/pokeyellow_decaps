@@ -809,8 +809,8 @@ PrintPCBox_DrawPage1:
 	call PrintPCBox_PlaceBoxMonInfo
 	ret
 
-.PokemonListString: db "POKéMON LIST@"
-.BoxString: db "BOX@"
+.PokemonListString: db "Pokémon List@"
+.BoxString: db "Box@"
 
 PrintPCBox_DrawPage2:
 	call ClearScreen

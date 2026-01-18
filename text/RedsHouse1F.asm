@@ -1,18 +1,18 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
+	text "Mom: Right."
 	line "All boys leave"
 	cont "home someday."
 	cont "It said so on TV."
 
-	para "PROF.OAK, next"
+	para "Prof. Oak, next"
 	line "door, is looking"
 	cont "for you."
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>, if"
+	text "Mom: <PLAYER>, if"
 	line "you drive your"
-	cont "#MON too hard,"
+	cont "#mon too hard,"
 	cont "they'll dislike"
 	cont "you."
 
@@ -21,9 +21,9 @@ _RedsHouse1FMomYouShouldRestText::
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
+	text "Mom: Oh good!"
 	line "You and your"
-	cont "#MON are"
+	cont "#mon are"
 	cont "looking great!"
 	cont "Take care now!"
 	done

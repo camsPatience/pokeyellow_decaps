@@ -1,7 +1,7 @@
 _Route14CooltrainerM1BattleText::
 	text "You need to use"
 	line "TMs to teach good"
-	cont "moves to #MON!"
+	cont "moves to #mon!"
 	done
 
 _Route14CooltrainerM1EndBattleText::
@@ -11,13 +11,13 @@ _Route14CooltrainerM1EndBattleText::
 
 _Route14CooltrainerM1AfterBattleText::
 	text "You have some HMs,"
-	line "right? #MON"
+	line "right? #mon"
 	cont "can't ever forget"
 	cont "those moves."
 	done
 
 _Route14CooltrainerM2BattleText::
-	text "My bird #MON"
+	text "My bird #mon"
 	line "should be ready"
 	cont "for battle."
 	done
@@ -34,7 +34,7 @@ _Route14CooltrainerM2AfterBattleText::
 
 _Route14CooltrainerM3BattleText::
 	text "TMs are on sale"
-	line "in CELADON!"
+	line "in Celadon!"
 	cont "But, only a few"
 	cont "people have HMs!"
 	done
@@ -45,7 +45,7 @@ _Route14CooltrainerM3EndBattleText::
 	prompt
 
 _Route14CooltrainerM3AfterBattleText::
-	text "Teach #MON"
+	text "Teach #mon"
 	line "moves of the same"
 	cont "element type for"
 	cont "more power."
@@ -53,8 +53,8 @@ _Route14CooltrainerM3AfterBattleText::
 
 _Route14CooltrainerM4BattleText::
 	text "Have you taught"
-	line "your bird #MON"
-	cont "how to FLY?"
+	line "your bird #mon"
+	cont "how to Fly?"
 	done
 
 _Route14CooltrainerM4EndBattleText::
@@ -63,14 +63,14 @@ _Route14CooltrainerM4EndBattleText::
 	prompt
 
 _Route14CooltrainerM4AfterBattleText::
-	text "Bird #MON are"
+	text "Bird #mon are"
 	line "my true love!"
 	done
 
 _Route14CooltrainerM5BattleText::
 	text "Have you heard of"
 	line "the legendary"
-	cont "#MON?"
+	cont "#mon?"
 	done
 
 _Route14CooltrainerM5EndBattleText::
@@ -80,7 +80,7 @@ _Route14CooltrainerM5EndBattleText::
 
 _Route14CooltrainerM5AfterBattleText::
 	text "The 3 legendary"
-	line "#MON are all"
+	line "#mon are all"
 	cont "birds of prey."
 	done
 
@@ -127,7 +127,7 @@ _Route14Biker2EndBattleText::
 	prompt
 
 _Route14Biker2AfterBattleText::
-	text "Raising #MON"
+	text "Raising #mon"
 	line "is a drag, man."
 	done
 
@@ -143,7 +143,7 @@ _Route14Biker3EndBattleText::
 
 _Route14Biker3AfterBattleText::
 	text "It's cool you"
-	line "made your #MON"
+	line "made your #mon"
 	cont "so strong!"
 
 	para "Might is right!"
@@ -151,7 +151,7 @@ _Route14Biker3AfterBattleText::
 	done
 
 _Route14Biker4BattleText::
-	text "#MON fight?"
+	text "#mon fight?"
 	line "Cool! Rumble!"
 	done
 
@@ -167,7 +167,7 @@ _Route14Biker4AfterBattleText::
 	done
 
 _Route14SignText::
-	text "ROUTE 14"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "Route 14"
+	line "West to Fuchsia"
+	cont "City"
 	done

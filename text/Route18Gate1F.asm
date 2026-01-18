@@ -1,10 +1,10 @@
 _Route18Gate1FGuardYouNeedABicycleText::
-	text "You need a BICYCLE"
-	line "for CYCLING ROAD!"
+	text "You need a Bicycle"
+	line "for Cycling Road!"
 	done
 
 _Route18Gate1FGuardCyclingRoadUphillText::
-	text "CYCLING ROAD is"
+	text "Cycling Road is"
 	line "all uphill from"
 	cont "here."
 	done

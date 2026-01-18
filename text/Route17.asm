@@ -11,7 +11,7 @@ _Route17Biker1EndBattleText::
 _Route17Biker1AfterBattleText::
 	text "Good stuff is"
 	line "lying around on"
-	cont "CYCLING ROAD!"
+	cont "Cycling Road!"
 	done
 
 _Route17Biker2BattleText::
@@ -31,7 +31,7 @@ _Route17Biker2AfterBattleText::
 
 _Route17Biker3BattleText::
 	text "You heading to"
-	line "FUCHSIA?"
+	line "Fuchsia?"
 	done
 
 _Route17Biker3EndBattleText::
@@ -45,7 +45,7 @@ _Route17Biker3AfterBattleText::
 	done
 
 _Route17Biker4BattleText::
-	text "We're BIKERs!"
+	text "We're Bikers!"
 	line "Highway stars!"
 	done
 
@@ -59,7 +59,7 @@ _Route17Biker4AfterBattleText::
 	done
 
 _Route17Biker5BattleText::
-	text "Let VOLTORB"
+	text "Let Voltorb"
 	line "electrify you!"
 	done
 
@@ -69,13 +69,13 @@ _Route17Biker5EndBattleText::
 	prompt
 
 _Route17Biker5AfterBattleText::
-	text "I got my VOLTORB"
+	text "I got my Voltorb"
 	line "at the abandoned"
-	cont "POWER PLANT."
+	cont "Power Plant."
 	done
 
 _Route17Biker6BattleText::
-	text "My #MON won't"
+	text "My #mon won't"
 	line "evolve! Why?"
 	done
 
@@ -85,9 +85,9 @@ _Route17Biker6EndBattleText::
 	prompt
 
 _Route17Biker6AfterBattleText::
-	text "Maybe some #MON"
+	text "Maybe some #mon"
 	line "need element"
-	cont "STONEs to evolve."
+	cont "Stones to evolve."
 	done
 
 _Route17Biker7BattleText::
@@ -119,7 +119,7 @@ _Route17Biker8AfterBattleText::
 	done
 
 _Route17Biker9BattleText::
-	text "Nice BIKE!"
+	text "Nice Bike!"
 	line "How's it handle?"
 	done
 
@@ -155,19 +155,19 @@ _Route17NoticeSign1Text::
 	done
 
 _Route17TrainerTips1Text::
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
-	para "All #MON are"
+	para "All #mon are"
 	line "unique."
 
-	para "Even #MON of"
+	para "Even #mon of"
 	line "the same type and"
 	cont "level grow at"
 	cont "different rates."
 	done
 
 _Route17TrainerTips2Text::
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Press the A or B"
 	line "Button to stay in"
@@ -176,9 +176,9 @@ _Route17TrainerTips2Text::
 	done
 
 _Route17SignText::
-	text "ROUTE 17"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "Route 17"
+	line "Celadon City -"
+	cont "Fuchsia City"
 	done
 
 _Route17NoticeSign2Text::
@@ -186,10 +186,10 @@ _Route17NoticeSign2Text::
 
 	para "Don't throw the"
 	line "game, throw #"
-	cont "BALLs instead!"
+	cont "Balls instead!"
 	done
 
 _Route17CyclingRoadEndsSignText::
-	text "CYCLING ROAD"
+	text "Cycling Road"
 	line "Slope ends here!"
 	done

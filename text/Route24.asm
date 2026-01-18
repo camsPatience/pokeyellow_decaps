@@ -26,11 +26,11 @@ _Route24CooltrainerM1NoRoomText::
 _Route24CooltrainerM1JoinTeamRocketText::
 	text "By the way, would"
 	line "you like to join"
-	cont "TEAM ROCKET?"
+	cont "Team Rocket?"
 
 	para "We're a group"
 	line "dedicated to evil"
-	cont "using #MON!"
+	cont "using #mon!"
 
 	para "Want to join?"
 
@@ -58,7 +58,7 @@ _Route24CooltrainerM1YouCouldBecomeATopLeaderText::
 	text "With your ability,"
 	line "you could become"
 	cont "a top leader in"
-	cont "TEAM ROCKET!"
+	cont "Team Rocket!"
 	done
 
 _Route24CooltrainerM2BattleText::
@@ -138,8 +138,8 @@ _Route24CooltrainerF2AfterBattleText::
 	done
 
 _Route24Youngster2BattleText::
-	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
+	text "This is Nugget"
+	line "Bridge! Beat us 5"
 	cont "trainers and win"
 	cont "a fabulous prize!"
 
@@ -159,10 +159,10 @@ _Route24Youngster2AfterBattleText::
 
 _Route24DamianText1::
 	text "I'm not good at"
-	line "raising #MON."
+	line "raising #mon."
 
 	para "I should release"
-	line "my CHARMANDER"
+	line "my Charmander"
 	cont "because I haven't"
 	cont "raised it well..."
 
@@ -173,7 +173,7 @@ _Route24DamianText1::
 
 _Route24DamianText2::
 	text "Take good care of"
-	line "my CHARMANDER!@"
+	line "my Charmander!@"
 	text_end
 
 _Route24DamianText3::
@@ -182,6 +182,6 @@ _Route24DamianText3::
 	done
 
 _Route24DamianText4::
-	text "How's CHARMANDER"
+	text "How's Charmander"
 	line "doing?"
 	done

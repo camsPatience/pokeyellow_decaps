@@ -168,10 +168,10 @@ Printer_GetMonStats:
 	db "<ID>№/@"
 
 .Stats:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPEED"
-	next "SPECIAL@"
+	db   "Attack"
+	next "Defense"
+	next "Speed"
+	next "Special@"
 
 .Blank:
 	db "--------------@"

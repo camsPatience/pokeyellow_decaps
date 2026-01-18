@@ -1,6 +1,6 @@
 _SafariZoneGateSafariZoneWorker1Text::
 	text "Welcome to the"
-	line "SAFARI ZONE!"
+	line "Safari Zone!"
 	done
 
 _SafariZoneGateSafariZoneWorker1LeavingEarlyText::
@@ -9,7 +9,7 @@ _SafariZoneGateSafariZoneWorker1LeavingEarlyText::
 
 _SafariZoneGateSafariZoneWorker1ReturnSafariBallsText::
 	text "Please return any"
-	line "SAFARI BALLs you"
+	line "Safari Balls you"
 	cont "have left."
 	done
 
@@ -26,7 +26,7 @@ _SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText::
 _SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText::
 	text "For just ¥500,"
 	line "you can catch all"
-	cont "the #MON you"
+	cont "the #mon you"
 	cont "want in the park!"
 
 	para "Would you like to"
@@ -40,11 +40,11 @@ _SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText::
 	line "please!"
 
 	para "We only use a"
-	line "special # BALL"
+	line "special # Ball"
 	cont "here."
 
 	para "<PLAYER> received"
-	line "30 SAFARI BALLs!@"
+	line "30 Safari Balls!@"
 	text_end
 
 _SafariZoneGateSafariZoneWorker1CallYouOnThePAText::
@@ -53,7 +53,7 @@ _SafariZoneGateSafariZoneWorker1CallYouOnThePAText::
 	para "We'll call you on"
 	line "the PA when you"
 	cont "run out of time"
-	cont "or SAFARI BALLs!"
+	cont "or Safari Balls!"
 	done
 
 _SafariZoneGateSafariZoneWorker1PleaseComeAgainText::
@@ -72,25 +72,25 @@ _SafariZoneGateSafariZoneWorker2FirstTimeHereText::
 	done
 
 _SafariZoneGateSafariZoneWorker2SafariZoneExplanationText::
-	text "SAFARI ZONE has 4"
+	text "Safari Zone has 4"
 	line "zones in it."
 
 	para "Each zone has"
 	line "different kinds"
-	cont "of #MON. Use"
-	cont "SAFARI BALLs to"
+	cont "of #mon. Use"
+	cont "Safari Balls to"
 	cont "catch them!"
 
 	para "When you run out"
-	line "of time or SAFARI"
-	cont "BALLs, it's game"
+	line "of time or Safari"
+	cont "Balls, it's game"
 	cont "over for you!"
 
 	para "Before you go,"
 	line "open an unused"
-	cont "#MON BOX so"
+	cont "#mon Box so"
 	cont "there's room for"
-	cont "new #MON!"
+	cont "new #mon!"
 	done
 
 _SafariZoneGateSafariZoneWorker2YoureARegularHereText::
@@ -107,7 +107,7 @@ _SafariZoneLowCostText1::
 
 _SafariZoneLowCostText2::
 	text "But, I can't give"
-	line "you all 30 BALLs."
+	line "you all 30 Balls."
 	done
 
 _SafariZoneLowCostText3::

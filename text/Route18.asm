@@ -1,7 +1,7 @@
 _Route18CooltrainerM1BattleText::
 	text "I always check"
 	line "every grassy area"
-	cont "for new #MON."
+	cont "for new #mon."
 	done
 
 _Route18CooltrainerM1EndBattleText::
@@ -10,7 +10,7 @@ _Route18CooltrainerM1EndBattleText::
 
 _Route18CooltrainerM1AfterBattleText::
 	text "I wish I had a"
-	line "BIKE!"
+	line "Bike!"
 	done
 
 _Route18CooltrainerM2BattleText::
@@ -26,7 +26,7 @@ _Route18CooltrainerM2EndBattleText::
 
 _Route18CooltrainerM2AfterBattleText::
 	text "I also collect sea"
-	line "#MON on"
+	line "#mon on"
 	cont "weekends!"
 	done
 
@@ -41,18 +41,18 @@ _Route18CooltrainerM3EndBattleText::
 
 _Route18CooltrainerM3AfterBattleText::
 	text "This is my fave"
-	line "#MON hunting"
+	line "#mon hunting"
 	cont "area!"
 	done
 
 _Route18SignText::
-	text "ROUTE 18"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "Route 18"
+	line "Celadon City -"
+	cont "Fuchsia City"
 	done
 
 _Route18CyclingRoadSignText::
-	text "CYCLING ROAD"
+	text "Cycling Road"
 	line "No pedestrians"
 	cont "permitted!"
 	done

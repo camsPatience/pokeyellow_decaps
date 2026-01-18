@@ -6,7 +6,7 @@ _RocketHideoutJessieJamesText1::
 _RocketHideoutJessieJamesText2::
 	text "How dare you"
 	line "humiliate us at"
-	cont "MT.MOON!"
+	cont "Mt. Moon!"
 
 	para "It's payback time,"
 	line "you brat!"
@@ -18,8 +18,8 @@ _RocketHideoutJessieJamesText3::
 	prompt
 
 _RocketHideoutJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
+	text "Looks like Team"
+	line "Rocket's blasting"
 	cont "off again!@"
 	text_end
 
@@ -36,7 +36,7 @@ _RocketHideoutB4FGiovanniWhatCannotBeText::
 
 _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
 	text "I see that you"
-	line "raise #MON"
+	line "raise #mon"
 	cont "with utmost care."
 
 	para "A child like you"
@@ -54,7 +54,7 @@ _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
 _RocketHideoutB4FRocketBattleText::
 	text "The elevator"
 	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	cont "has the Lift Key?"
 	done
 
 _RocketHideoutB4FRocketEndBattleText::
@@ -63,5 +63,5 @@ _RocketHideoutB4FRocketEndBattleText::
 
 _RocketHideoutB4FRocketAfterBattleText::
 	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	line "the Lift Key!"
 	done

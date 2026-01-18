@@ -8,7 +8,7 @@ _Route11Gambler1EndBattleText::
 	prompt
 
 _Route11Gambler1AfterBattleText::
-	text "#MON is life!"
+	text "#mon is life!"
 	line "And to live is to"
 	cont "gamble!"
 	done
@@ -26,7 +26,7 @@ _Route11Gambler2EndBattleText::
 _Route11Gambler2AfterBattleText::
 	text "You can't be a"
 	line "coward in the"
-	cont "world of #MON!"
+	cont "world of #mon!"
 	done
 
 _Route11Youngster1BattleText::
@@ -68,7 +68,7 @@ _Route11Youngster2BattleText::
 
 _Route11Youngster2EndBattleText::
 	text "My"
-	line "#MON couldn't!"
+	line "#mon couldn't!"
 	prompt
 
 _Route11Youngster2AfterBattleText5::
@@ -114,12 +114,12 @@ _Route11Youngster3BattleText::
 _Route11Youngster3EndBattleText::
 	text "Darn!"
 	line "I need to make my"
-	cont "#MON stronger!"
+	cont "#mon stronger!"
 	prompt
 
 _Route11Youngster3AfterBattleText::
 	text "There's a fat"
-	line "#MON that"
+	line "#mon that"
 	cont "comes down from"
 	cont "the mountains."
 
@@ -143,7 +143,7 @@ _Route11SuperNerd2AfterBattleText::
 	done
 
 _Route11Youngster4BattleText::
-	text "My #MON should"
+	text "My #mon should"
 	line "be ready by now!"
 	done
 
@@ -158,5 +158,5 @@ _Route11Youngster4AfterBattleText::
 	done
 
 _Route11DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
+	text "Diglett's Cave"
 	done

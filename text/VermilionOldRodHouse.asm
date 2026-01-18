@@ -1,6 +1,6 @@
 _VermilionOldRodHouseFishingGuruDoYouLikeToFishText::
-	text "I'm the FISHING"
-	line "GURU!"
+	text "I'm the Fishing"
+	line "Guru!"
 
 	para "I simply Looove"
 	line "fishing!"

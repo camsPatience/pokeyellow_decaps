@@ -1,16 +1,16 @@
 _SilphCo7FSilphWorkerM1HaveThisPokemonText::
 	text "Oh! Hi! You're"
-	line "not a ROCKET! You"
+	line "not a Rocket! You"
 	cont "came to save us?"
 	cont "Why, thank you!"
 
 	para "I want you to"
-	line "have this #MON"
+	line "have this #mon"
 	cont "for saving us."
 	prompt
 
 _SilphCo7FSilphWorkerM1LaprasDescriptionText::
-	text "It's LAPRAS. It's"
+	text "It's Lapras. It's"
 	line "very intelligent."
 
 	para "We kept it in our"
@@ -20,7 +20,7 @@ _SilphCo7FSilphWorkerM1LaprasDescriptionText::
 
 	para "I think you will"
 	line "be a good trainer"
-	cont "for LAPRAS!"
+	cont "for Lapras!"
 
 	para "It's a good"
 	line "swimmer. It'll"
@@ -28,10 +28,10 @@ _SilphCo7FSilphWorkerM1LaprasDescriptionText::
 	done
 
 _SilphCo7FSilphWorkerM1IsOurPresidentOkText::
-	text "TEAM ROCKET's"
-	line "BOSS went to the"
+	text "Team Rocket's"
+	line "Boss went to the"
 	cont "boardroom! Is our"
-	cont "PRESIDENT OK?"
+	cont "President OK?"
 	done
 
 _SilphCo7FSilphWorkerM1SavedText::
@@ -40,29 +40,29 @@ _SilphCo7FSilphWorkerM1SavedText::
 	done
 
 _SilphCo7FSilphWorkerM2AfterTheMasterBallText::
-	text "TEAM ROCKET was"
-	line "after the MASTER"
-	cont "BALL which will"
-	cont "catch any #MON!"
+	text "Team Rocket was"
+	line "after the Master"
+	cont "Ball which will"
+	cont "catch any #mon!"
 	done
 
 _SilphCo7FSilphWorkerM2CancelledMasterBallText::
 	text "We canceled the"
-	line "MASTER BALL"
+	line "Master Ball"
 	cont "project because"
-	cont "of TEAM ROCKET."
+	cont "of Team Rocket."
 	done
 
 _SilphCo7FSilphWorkerM3ItWouldBeBadText::
 	text "It would be bad"
-	line "if TEAM ROCKET"
-	cont "took over SILPH"
-	cont "or our #MON!"
+	line "if Team Rocket"
+	cont "took over Silph"
+	cont "or our #mon!"
 	done
 
 _SilphCo7FSilphWorkerM3YouChasedOffTeamRocketText::
 	text "Wow! You chased"
-	line "off TEAM ROCKET"
+	line "off Team Rocket"
 	cont "all by yourself?"
 	done
 
@@ -90,7 +90,7 @@ _SilphCo7FRocket1EndBattleText::
 
 _SilphCo7FRocket1AfterBattleText::
 	text "You won't find my"
-	line "BOSS by just"
+	line "Boss by just"
 	cont "scurrying around!"
 	done
 
@@ -98,7 +98,7 @@ _SilphCo7FScientistBattleText::
 	text "Heheh!"
 
 	para "You mistook me for"
-	line "a SILPH worker?"
+	line "a Silph worker?"
 	done
 
 _SilphCo7FScientistEndBattleText::
@@ -114,7 +114,7 @@ _SilphCo7FScientistAfterBattleText::
 
 _SilphCo7FRocket2BattleText::
 	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	line "Rocket Brothers!"
 	done
 
 _SilphCo7FRocket2EndBattleText::
@@ -140,7 +140,7 @@ _SilphCo7FRocket3EndBattleText::
 
 _SilphCo7FRocket3AfterBattleText::
 	text "Go on home"
-	line "before my BOSS"
+	line "before my Boss"
 	cont "gets ticked off!"
 	done
 
@@ -155,13 +155,13 @@ _SilphCo7FRivalWaitedHereText::
 	cont "turn up if I"
 	cont "waited here!"
 
-	para "I guess TEAM"
-	line "ROCKET slowed you"
+	para "I guess Team"
+	line "Rocket slowed you"
 	cont "down! Not that I"
 	cont "care!"
 
 	para "I saw you in"
-	line "SAFFRON, so I"
+	line "Saffron, so I"
 	cont "decided to see if"
 	cont "you got better!"
 	done
@@ -169,7 +169,7 @@ _SilphCo7FRivalWaitedHereText::
 _SilphCo7FRivalDefeatedText::
 	text "Oh-oh!"
 	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	cont "for Boss Rocket!"
 	prompt
 
 _SilphCo7FRivalVictoryText::
@@ -188,15 +188,15 @@ _SilphCo7FRivalGoodLuckToYouText::
 	line "and ahead!"
 
 	para "By checking my"
-	line "#DEX, I'm"
+	line "#dex, I'm"
 	cont "starting to see"
 	cont "what's strong and"
 	cont "how they evolve!"
 
 	para "I'm going to the"
-	line "#MON LEAGUE"
+	line "#mon League"
 	cont "to boot out the"
-	cont "ELITE FOUR!"
+	cont "Elite Four!"
 
 	para "I'll become the"
 	line "world's most"

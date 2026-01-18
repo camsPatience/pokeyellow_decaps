@@ -1,5 +1,5 @@
 _SilphCo6FSilphWorkerM1TookOverTheBuildingText::
-	text "The ROCKETs came"
+	text "The Rockets came"
 	line "and took over the"
 	cont "building!"
 	done
@@ -31,33 +31,33 @@ _SilphCo6FSilphWorkerF1HaveToMarryHimText::
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketConquerWorldText::
-	text "TEAM ROCKET is"
+	text "Team Rocket is"
 	line "trying to conquer"
 	cont "the world with"
-	cont "#MON!"
+	cont "#mon!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketRanText::
-	text "TEAM ROCKET ran"
+	text "Team Rocket ran"
 	line "because of you!"
 	done
 
 _SilphCo6FSilphWorkerM3TargetedSilphText::
 	text "They must have"
-	line "targeted SILPH"
-	cont "for our #MON"
+	line "targeted Silph"
+	cont "for our #mon"
 	cont "products."
 	done
 
 _SilphCo6FSilphWorkerM3WorkForSilphText::
 	text "Come work for"
-	line "SILPH when you"
+	line "Silph when you"
 	cont "get older!"
 	done
 
 _SilphCo6FRocket1BattleText::
 	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	line "Rocket Brothers!"
 	done
 
 _SilphCo6FRocket1EndBattleText::
@@ -73,11 +73,11 @@ _SilphCo6FRocket1AfterBattleText::
 
 _SilphCo6FScientistBattleText::
 	text "That rotten"
-	line "PRESIDENT!"
+	line "President!"
 
 	para "He shouldn't have"
 	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	cont "Tiksi Branch!"
 	done
 
 _SilphCo6FScientistEndBattleText::
@@ -85,14 +85,14 @@ _SilphCo6FScientistEndBattleText::
 	prompt
 
 _SilphCo6FScientistAfterBattleText::
-	text "TIKSI BRANCH?"
+	text "Tiksi Branch?"
 	line "It's in Russian"
 	cont "no man's land!"
 	done
 
 _SilphCo6FRocket2BattleText::
 	text "You dare betray"
-	line "TEAM ROCKET?"
+	line "Team Rocket?"
 	done
 
 _SilphCo6FRocket2EndBattleText::

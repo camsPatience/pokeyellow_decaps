@@ -1,15 +1,15 @@
 _CeruleanBadgeHouseSoulBadgeText::
-	text "The DEFENSE of all"
-	line "#MON increases"
+	text "The Defense of all"
+	line "#mon increases"
 	cont "a little bit."
 
 	para "It also lets you"
-	line "use SURF outside"
+	line "use Surf outside"
 	cont "of battle."
 	prompt
 
 _CeruleanBadgeHouseMarshBadgeText::
-	text "#MON up to L70"
+	text "#mon up to L70"
 	line "will obey you."
 
 	para "Any higher, they"
@@ -17,12 +17,12 @@ _CeruleanBadgeHouseMarshBadgeText::
 	prompt
 
 _CeruleanBadgeHouseVolcanoBadgeText::
-	text "Your #MON's"
-	line "SPECIAL abilities"
+	text "Your #mon's"
+	line "Special abilities"
 	cont "increase a bit."
 	prompt
 
 _CeruleanBadgeHouseEarthBadgeText::
-	text "All #MON will"
+	text "All #mon will"
 	line "obey you!"
 	prompt

@@ -1,5 +1,5 @@
 _Route13CooltrainerM1BattleText::
-	text "My bird #MON"
+	text "My bird #mon"
 	line "want to scrap!"
 	done
 
@@ -9,7 +9,7 @@ _Route13CooltrainerM1EndBattleText::
 	prompt
 
 _Route13CooltrainerM1AfterBattleText::
-	text "My #MON look"
+	text "My #mon look"
 	line "happy even though"
 	cont "they lost."
 	done
@@ -31,7 +31,7 @@ _Route13CooltrainerF1AfterBattleText::
 	done
 
 _Route13CooltrainerF2BattleText::
-	text "Wow! Your BADGEs"
+	text "Wow! Your Badges"
 	line "are too cool!"
 	done
 
@@ -42,12 +42,12 @@ _Route13CooltrainerF2EndBattleText::
 
 _Route13CooltrainerF2AfterBattleText::
 	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	line "Badges from Gym"
+	cont "Leaders. I know!"
 	done
 
 _Route13CooltrainerF3BattleText::
-	text "My cute #MON"
+	text "My cute #mon"
 	line "wish to make your"
 	cont "acquaintance."
 	done
@@ -59,12 +59,12 @@ _Route13CooltrainerF3EndBattleText::
 
 _Route13CooltrainerF3AfterBattleText::
 	text "You have to make"
-	line "#MON fight to"
+	line "#mon fight to"
 	cont "toughen them up!"
 	done
 
 _Route13CooltrainerF4BattleText::
-	text "I found CARBOS in"
+	text "I found Carbos in"
 	line "a cave once."
 	done
 
@@ -74,9 +74,9 @@ _Route13CooltrainerF4EndBattleText::
 	prompt
 
 _Route13CooltrainerF4AfterBattleText::
-	text "CARBOS boosted"
-	line "the SPEED of my"
-	cont "#MON."
+	text "Carbos boosted"
+	line "the Speed of my"
+	cont "#mon."
 	done
 
 _Route13CooltrainerM2BattleText::
@@ -91,7 +91,7 @@ _Route13CooltrainerM2EndBattleText::
 
 _Route13CooltrainerM2AfterBattleText::
 	text "I'm beat. I guess"
-	line "I'll FLY home."
+	line "I'll Fly home."
 	done
 
 _Route13Beauty1BattleText::
@@ -107,12 +107,12 @@ _Route13Beauty1EndBattleText::
 _Route13Beauty1AfterBattleText::
 	text "I wonder which is"
 	line "stronger, male or"
-	cont "female #MON?"
+	cont "female #mon?"
 	done
 
 _Route13Beauty2BattleText::
 	text "Do you want to"
-	line "#MON with me?"
+	line "#mon with me?"
 	done
 
 _Route13Beauty2EndBattleText::
@@ -123,7 +123,7 @@ _Route13Beauty2EndBattleText::
 _Route13Beauty2AfterBattleText::
 	text "I don't know"
 	line "anything about"
-	cont "#MON. I just"
+	cont "#mon. I just"
 	cont "like cool ones!"
 	done
 
@@ -143,7 +143,7 @@ _Route13BikerAfterBattleText::
 
 _Route13CooltrainerM3BattleText::
 	text "I always go with"
-	line "bird #MON!"
+	line "bird #mon!"
 	done
 
 _Route13CooltrainerM3EndBattleText::
@@ -153,27 +153,27 @@ _Route13CooltrainerM3EndBattleText::
 
 _Route13CooltrainerM3AfterBattleText::
 	text "I wish I could"
-	line "fly like PIDGEY"
-	cont "and PIDGEOTTO..."
+	line "fly like Pidgey"
+	cont "and Pidgeotto..."
 	done
 
 _Route13TrainerTips1Text::
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Look to the left"
 	line "of that post!"
 	done
 
 _Route13TrainerTips2Text::
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
-	para "Use SELECT to"
+	para "Use Select to"
 	line "switch items in"
-	cont "the ITEM window!"
+	cont "the Item window!"
 	done
 
 _Route13SignText::
-	text "ROUTE 13"
-	line "North to SILENCE"
-	cont "BRIDGE"
+	text "Route 13"
+	line "North to Silence"
+	cont "Bridge"
 	done

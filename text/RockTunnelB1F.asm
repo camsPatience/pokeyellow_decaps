@@ -31,7 +31,7 @@ _RockTunnelB1FHiker1AfterBattleText::
 
 _RockTunnelB1FSuperNerd1BattleText::
 	text "You have a"
-	line "#DEX?"
+	line "#dex?"
 	cont "I want one too!"
 	done
 
@@ -42,7 +42,7 @@ _RockTunnelB1FSuperNerd1EndBattleText::
 
 _RockTunnelB1FSuperNerd1AfterBattleText::
 	text "When you finish"
-	line "your #DEX, can"
+	line "your #dex, can"
 	cont "I have it?"
 	done
 
@@ -59,11 +59,11 @@ _RockTunnelB1FSuperNerd2EndBattleText::
 _RockTunnelB1FSuperNerd2AfterBattleText::
 	text "Costume players"
 	line "dress up as"
-	cont "#MON for fun."
+	cont "#mon for fun."
 	done
 
 _RockTunnelB1FHiker2BattleText::
-	text "My #MON"
+	text "My #mon"
 	line "techniques will"
 	cont "leave you crying!"
 	done
@@ -77,7 +77,7 @@ _RockTunnelB1FHiker2EndBattleText::
 _RockTunnelB1FHiker2AfterBattleText::
 	text "In mountains,"
 	line "you'll often find"
-	cont "rock-type #MON."
+	cont "rock-type #mon."
 	done
 
 _RockTunnelB1FCooltrainerF2BattleText::
@@ -93,7 +93,7 @@ _RockTunnelB1FCooltrainerF2EndBattleText::
 
 _RockTunnelB1FCooltrainerF2AfterBattleText::
 	text "I like tiny"
-	line "#MON, big ones"
+	line "#mon, big ones"
 	cont "are too scary!"
 	done
 
@@ -109,12 +109,12 @@ _RockTunnelB1FHiker3EndBattleText::
 
 _RockTunnelB1FHiker3AfterBattleText::
 	text "I'll raise my"
-	line "#MON to beat"
+	line "#mon to beat"
 	cont "yours, kid!"
 	done
 
 _RockTunnelB1FSuperNerd3BattleText::
-	text "I draw #MON"
+	text "I draw #mon"
 	line "when I'm home."
 	done
 

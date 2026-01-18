@@ -1,6 +1,6 @@
 _CinnabarMartSilphWorkerFText::
 	text "Don't they have X"
-	line "ATTACK? It's good"
+	line "Attack? It's good"
 	cont "for battles!"
 	done
 

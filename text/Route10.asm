@@ -1,6 +1,6 @@
 _Route10SuperNerd1BattleText::
 	text "Wow, are you a"
-	line "#MANIAC too?"
+	line "# Maniac too?"
 	cont "Want to see my"
 	cont "collection?"
 	done
@@ -12,7 +12,7 @@ _Route10SuperNerd1EndBattleText::
 
 _Route10SuperNerd1AfterBattleText::
 	text "I have more rare"
-	line "#MON at home!"
+	line "#mon at home!"
 	done
 
 _Route10Hiker1BattleText::
@@ -34,12 +34,12 @@ _Route10Hiker1AfterBattleText::
 
 _Route10SuperNerd2BattleText::
 	text "Hi, kid, want to"
-	line "see my #MON?"
+	line "see my #mon?"
 	done
 
 _Route10SuperNerd2EndBattleText::
 	text "Oh no!"
-	line "My #MON!"
+	line "My #mon!"
 	prompt
 
 _Route10SuperNerd2AfterBattleText::
@@ -49,7 +49,7 @@ _Route10SuperNerd2AfterBattleText::
 
 _Route10CooltrainerF1BattleText::
 	text "I've been to a"
-	line "#MON GYM a few"
+	line "#mon Gym a few"
 	cont "times. But, I"
 	cont "lost each time."
 	done
@@ -61,7 +61,7 @@ _Route10CooltrainerF1EndBattleText::
 
 _Route10CooltrainerF1AfterBattleText::
 	text "I noticed some"
-	line "#MANIACs"
+	line "# Maniacs"
 	cont "prowling around."
 	done
 
@@ -92,7 +92,7 @@ _Route10CooltrainerF2EndBattleText::
 	prompt
 
 _Route10CooltrainerF2AfterBattleText::
-	text "The #MON here"
+	text "The #mon here"
 	line "are so chunky!"
 	cont "There should be a"
 	cont "pink one with a"
@@ -100,9 +100,9 @@ _Route10CooltrainerF2AfterBattleText::
 	done
 
 _Route10RockTunnelSignText::
-	text "ROCK TUNNEL"
+	text "Rock Tunnel"
 	done
 
 _Route10PowerPlantSignText::
-	text "POWER PLANT"
+	text "Power Plant"
 	done

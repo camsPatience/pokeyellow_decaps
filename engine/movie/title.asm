@@ -348,10 +348,10 @@ CopyDebugName:
 	jp CopyData
 
 DebugNewGamePlayerName:
-	db "NINTEN@"
+	db "Ninten@"
 
 DebugNewGameRivalName:
-	db "SONY@"
+	db "Sony@"
 
 IncrementResetCounter:
 	ld hl, wTitleScreenResetCounter

@@ -1,6 +1,6 @@
 _VermilionGymLTSurgePreBattleText::
 	text "Ten-hut! Welcome"
-	line "to VERMILION GYM!"
+	line "to Vermilion Gym!"
 
 	para "Will you look at"
 	line "that, a pint-size"
@@ -12,7 +12,7 @@ _VermilionGymLTSurgePreBattleText::
 	cont "on with your puny"
 	cont "power!"
 
-	para "A #MON battle"
+	para "A #mon battle"
 	line "is war! I'll show"
 	cont "you, civilian!"
 
@@ -29,16 +29,16 @@ _VermilionGymLTSurgePostBattleAdviceText::
 
 	para "But, it's useless"
 	line "against ground-"
-	cont "type #MON!"
+	cont "type #mon!"
 	done
 
 _VermilionGymLTSurgeThunderBadgeInfoText::
-	text "The THUNDERBADGE"
+	text "The ThunderBadge"
 	line "cranks up your"
-	cont "#MON's SPEED!"
+	cont "#mon's Speed!"
 
 	para "It also lets your"
-	line "#MON FLY any-"
+	line "#mon Fly any-"
 	cont "time, kid!"
 
 	para "You're special,"
@@ -56,10 +56,10 @@ _TM24ExplanationText::
 	text_start
 
 	para "TM24 contains"
-	line "THUNDERBOLT!"
+	line "Thunderbolt!"
 
 	para "Teach it to an"
-	line "electric #MON!"
+	line "electric #mon!"
 	done
 
 _VermilionGymLTSurgeTM24NoRoomText::
@@ -74,12 +74,12 @@ _VermilionGymLTSurgeReceivedThunderBadgeText::
 	line "deal, kid!"
 
 	para "Fine then, take"
-	line "the THUNDERBADGE!"
+	line "the ThunderBadge!"
 	prompt
 
 _VermilionGymGentlemanBattleText::
 	text "When I was in the"
-	line "Army, LT.SURGE"
+	line "Army, Lt. Surge"
 	cont "was my strict CO!"
 	done
 
@@ -92,7 +92,7 @@ _VermilionGymGentlemanAfterBattleText::
 	text "The door won't"
 	line "open?"
 
-	para "LT.SURGE always"
+	para "Lt. Surge always"
 	line "was cautious!"
 	done
 
@@ -109,7 +109,7 @@ _VermilionGymSuperNerdEndBattleText::
 _VermilionGymSuperNerdAfterBattleText::
 	text "OK, I'll talk!"
 
-	para "LT.SURGE said he"
+	para "Lt. Surge said he"
 	line "hid door switches"
 	cont "inside something!"
 	done
@@ -125,7 +125,7 @@ _VermilionGymSailorEndBattleText::
 	prompt
 
 _VermilionGymSailorAfterBattleText::
-	text "LT.SURGE set up"
+	text "Lt. Surge set up"
 	line "double locks!"
 	cont "Here's a hint!"
 
@@ -139,21 +139,21 @@ _VermilionGymGymGuideChampInMakingText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "LT.SURGE has a"
+	para "Lt. Surge has a"
 	line "nickname. People"
 	cont "refer to him as"
 	cont "the Lightning"
 	cont "American!"
 
 	para "He's an expert on"
-	line "electric #MON!"
+	line "electric #mon!"
 
 	para "Birds and water"
-	line "#MON are at"
+	line "#mon are at"
 	cont "risk! Beware of"
 	cont "paralysis too!"
 
-	para "LT.SURGE is very"
+	para "Lt. Surge is very"
 	line "cautious!"
 
 	para "You'll have to"

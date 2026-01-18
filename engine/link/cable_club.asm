@@ -543,7 +543,7 @@ TradeCenter_SelectMon:
 	ld [wTradeCenterPointerTableIndex], a
 	jp CallCurrentTradeCenterFunction
 .statsTrade
-	db "STATS     TRADE@"
+	db "Stats     Trade@"
 .selectedCancelMenuItem
 	ld a, [wCurrentMenuItem]
 	ld b, a
@@ -618,7 +618,7 @@ TradeCenter_DrawCancelBox:
 	jp PlaceString
 
 CancelTextString:
-	db "CANCEL@"
+	db "Cancel@"
 
 TradeCenter_PlaceSelectedEnemyMonMenuCursor:
 	ld a, [wSerialSyncAndExchangeNybbleReceiveData]

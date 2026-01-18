@@ -19,13 +19,13 @@ _PokemonTowerJessieJamesText3::
 	prompt
 
 _PokemonTowerJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
+	text "Looks like Team"
+	line "Rocket's blasting"
 	cont "off again!@"
 	text_end
 
 _PokemonTower7FMrFujiRescueText::
-	text "MR.FUJI: Heh? You"
+	text "Mr.Fuji: Heh? You"
 	line "came to save me?"
 
 	para "Thank you. But, I"
@@ -34,9 +34,9 @@ _PokemonTower7FMrFujiRescueText::
 
 	para "I came to calm"
 	line "the soul of"
-	cont "CUBONE's mother."
+	cont "Cubone's mother."
 
-	para "I think MAROWAK's"
+	para "I think Marowak's"
 	line "spirit has gone"
 	cont "to the afterlife."
 
@@ -45,7 +45,7 @@ _PokemonTower7FMrFujiRescueText::
 	cont "concern!"
 
 	para "Follow me to my"
-	line "home, #MON"
-	cont "HOUSE at the foot"
+	line "home, #mon"
+	cont "House at the foot"
 	cont "of this tower."
 	done

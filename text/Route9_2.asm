@@ -1,6 +1,6 @@
 _Route9Youngster2BattleText::
 	text "Go, my super bug"
-	line "#MON!"
+	line "#mon!"
 	done
 
 _Route9Youngster2EndBattleText::
@@ -10,12 +10,12 @@ _Route9Youngster2EndBattleText::
 
 _Route9Youngster2AfterBattleText::
 	text "If you don't like"
-	line "bug #MON, you"
+	line "bug #mon, you"
 	cont "bug me!"
 	done
 
 _Route9SignText::
-	text "ROUTE 9"
-	line "CERULEAN CITY-"
-	cont "ROCK TUNNEL"
+	text "Route 9"
+	line "Cerulean City -"
+	cont "Rock Tunnel"
 	done

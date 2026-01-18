@@ -1,6 +1,6 @@
 _Route15CooltrainerF1BattleText::
 	text "Let me try out the"
-	line "#MON I just"
+	line "#mon I just"
 	cont "got in a trade!"
 	done
 
@@ -12,7 +12,7 @@ _Route15CooltrainerF1EndBattleText::
 _Route15CooltrainerF1AfterBattleText::
 	text "You can't change"
 	line "the nickname of"
-	cont "any #MON you"
+	cont "any #mon you"
 	cont "get in a trade."
 
 	para "Only the Original"
@@ -32,14 +32,14 @@ _Route15CooltrainerF2EndBattleText::
 
 _Route15CooltrainerF2AfterBattleText::
 	text "I'm afraid of"
-	line "BIKERs, they look"
+	line "Bikers, they look"
 	cont "so ugly and mean!"
 	done
 
 _Route15CooltrainerM1BattleText::
 	text "When I whistle, I"
 	line "can summon bird"
-	cont "#MON!"
+	cont "#mon!"
 	done
 
 _Route15CooltrainerM1EndBattleText::
@@ -65,7 +65,7 @@ _Route15CooltrainerM2EndBattleText::
 
 _Route15CooltrainerM2AfterBattleText::
 	text "Did you know moves"
-	line "like EARTHQUAKE"
+	line "like Earthquake"
 	cont "don't have any"
 	cont "effect on birds?"
 	done
@@ -86,7 +86,7 @@ _Route15Beauty1AfterBattleText::
 	done
 
 _Route15Beauty2BattleText::
-	text "I raise #MON"
+	text "I raise #mon"
 	line "because I live"
 	cont "alone!"
 	done
@@ -99,7 +99,7 @@ _Route15Beauty2EndBattleText::
 _Route15Beauty2AfterBattleText::
 	text "I just like going"
 	line "home to be with"
-	cont "my #MON!"
+	cont "my #mon!"
 	done
 
 _Route15Biker1BattleText::
@@ -137,7 +137,7 @@ _Route15Biker2AfterBattleText::
 
 _Route15CooltrainerF3BattleText::
 	text "What's cool?"
-	line "Trading #MON!"
+	line "Trading #mon!"
 	done
 
 _Route15CooltrainerF3EndBattleText::
@@ -146,13 +146,13 @@ _Route15CooltrainerF3EndBattleText::
 	prompt
 
 _Route15CooltrainerF3AfterBattleText::
-	text "I trade #MON"
+	text "I trade #mon"
 	line "with my friends!"
 	done
 
 _Route15CooltrainerF4BattleText::
 	text "Want to play with"
-	line "my #MON?"
+	line "my #mon?"
 	done
 
 _Route15CooltrainerF4EndBattleText::
@@ -166,7 +166,7 @@ _Route15CooltrainerF4AfterBattleText::
 	text_end
 
 _Route15SignText::
-	text "ROUTE 15"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "Route 15"
+	line "West to Fuchsia"
+	cont "City"
 	done

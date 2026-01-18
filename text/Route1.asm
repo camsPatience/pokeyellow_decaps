@@ -1,11 +1,11 @@
 _Route1Youngster1MartSampleText::
 	text "Hi! I work at a"
-	line "#MON MART."
+	line "#mon Mart."
 
 	para "It's a convenient"
 	line "shop, so please"
 	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	cont "Viridian City."
 
 	para "I know, I'll give"
 	line "you a sample!"
@@ -21,8 +21,8 @@ _Route1Youngster1GotPotionText::
 
 _Route1Youngster1AlsoGotPokeballsText::
 	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	line "# Balls for"
+	cont "catching #mon!"
 	done
 
 _Route1Youngster1NoRoomText::
@@ -39,12 +39,12 @@ _Route1Youngster2Text::
 	cont "from them."
 
 	para "You can get back"
-	line "to PALLET TOWN"
+	line "to Pallet Town"
 	cont "quicker that way."
 	done
 
 _Route1SignText::
-	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	text "Route 1"
+	line "Pallet Town -"
+	cont "Viridian City"
 	done

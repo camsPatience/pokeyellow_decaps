@@ -6,16 +6,16 @@ _CeladonDinerCookText::
 	done
 
 _CeladonDinerMiddleAgedWomanText::
-	text "My #MON are"
+	text "My #mon are"
 	line "weak, so I often"
 	cont "have to go to the"
-	cont "DRUG STORE."
+	cont "Drug Store."
 	done
 
 _CeladonDinerMiddleAgedManText::
 	text "Psst! There's a"
 	line "basement under"
-	cont "the GAME CORNER."
+	cont "the Game Corner."
 	done
 
 _CeladonDinerFisherText::
