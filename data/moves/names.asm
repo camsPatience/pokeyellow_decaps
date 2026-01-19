@@ -91,7 +91,7 @@ MoveNames::
 	li "Rock Throw"
 	li "Earthquake"
 	li "Fissure"
-	li "DIG"
+	li "Dig"
 	li "Toxic"
 	li "Confusion"
 	li "Psychic"
