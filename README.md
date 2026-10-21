@@ -1,29 +1,14 @@
-# Pokémon Yellow [![Build Status][ci-badge]][ci]
+# Cam's Yellow Decapitalization+
 
-This is a disassembly of Pokémon Yellow.
+A hack of Pokémon Yellow (forked from pret's pokeyellow decompilation) which decapitalizes all of the text I could find, as well as updating the spelling and spacing of certain terms to match my personal preference. Usually, this just means using the modern spellings of those terms when possible.
 
-It builds the following ROMs:
+Some examples of what to expect:
+- PARLYZ HEAL -> ParalyzeHeal
+- PROF.OAK -> Prof. Oak
+- HI JUMP KICK -> HighJumpKick
+- VICEGRIP -> Vise Grip
 
-- Pokemon Yellow (UE) [C][!].gbc  `sha1: cc7d03262ebfaf2f06772c1a480c7d9d5f4a38e1`
-- YELLMONS.GB (debug build) `sha1: d44e96eddfbdad633cbe4e6e64915e9e198974b0`
-- Dmgapse0.h08.patch `sha1: f3346a5559d52c296b8feab0cdbbfb0e250ac161`
+Patching requires a ROM of Pokémon Yellow (CRC32: `7d527d62`). I recommend using [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) if you don't feel like downloading any software.
 
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
-
-
-## See also
-
-- [**Wiki**][wiki] (includes [tutorials][tutorials])
-- [**Symbols**][symbols]
-- [**Tools**][tools]
-
-You can find us on [Discord (pret, #pokered)](https://discord.gg/d5dubZ3).
-
-For other pret projects, see [pret.github.io](https://pret.github.io/).
-
-[wiki]: https://github.com/pret/pokeyellow/wiki
-[tutorials]: https://github.com/pret/pokeyellow/wiki/Tutorials
-[symbols]: https://github.com/pret/pokeyellow/tree/symbols
-[tools]: https://github.com/pret/gb-asm-tools
-[ci]: https://github.com/pret/pokeyellow/actions
-[ci-badge]: https://github.com/pret/pokeyellow/actions/workflows/main.yml/badge.svg
+# ![crossed-out picture of the Master Control Program from Tron, as depicted in Kingdom Hearts II](https://github.com/camsPatience/camsPatience/blob/04452724a30d22c4f4ea41814bc829cb3b6295d4/fuck_AI.png) Generative AI was not (and will never be) used in this repository.
+AI-generated or AI-assisted contributions to any of my repositories are strictly prohibited, and will be turned away as quickly as possible.
