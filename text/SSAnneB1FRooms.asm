@@ -11,30 +11,10 @@ _SSAnneB1FRoomsSailor1BattleText::
 
 _SSAnneB1FRoomsSailor1EndBattleText::
 	text "Right!"
-	line "Good fight, mate!"
-	prompt
-
-_SSAnneB1FRoomsSailor1EndBattleTextB::
-	text "Right!"
-	line "Good fight, lass!"
-	prompt
-
-_SSAnneB1FRoomsSailor1EndBattleTextC::
-	text "Right!"
 	line "Good fight, pal!"
 	prompt
 
 _SSAnneB1FRoomsSailor1AfterBattleText::
-	text "Haha! Want to be"
-	line "a sailor, mate?"
-	done
-
-_SSAnneB1FRoomsSailor1AfterBattleTextB::
-	text "Haha! Want to be"
-	line "a sailor, lass?"
-	done
-
-_SSAnneB1FRoomsSailor1AfterBattleTextC::
 	text "Haha! Want to be"
 	line "a sailor, pal?"
 	done
@@ -88,18 +68,6 @@ _SSAnneB1FRoomsSailor4AfterBattleText::
 	done
 
 _SSAnneB1FRoomsSailor5BattleText::
-	text "Matey, you're"
-	line "walking the plank"
-	cont "if you lose!"
-	done
-
-_SSAnneB1FRoomsSailor5BattleTextB::
-	text "Lassie, you're"
-	line "walking the plank"
-	cont "if you lose!"
-	done
-
-_SSAnneB1FRoomsSailor5BattleTextC::
 	text "Pal, you're"
 	line "walking the plank"
 	cont "if you lose!"
