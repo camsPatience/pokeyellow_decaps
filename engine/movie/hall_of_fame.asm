@@ -197,20 +197,36 @@ HoFMonInfoText:
 	next "Type2/@"
 
 HoFLoadPlayerPics:
+	ld a, [wPlayerGender]
+	and a
+	jr z, .BoyStuff1
+	ld de, LeafPicFront
+	ld a, BANK(LeafPicFront)
+	jr .Routine
+.BoyStuff1
 	ld de, RedPicFront
 	ld a, BANK(RedPicFront)
+.Routine
 	call UncompressSpriteFromDE
-	ld a, BANK("Sprite Buffers")
+	ld a, $0
 	call OpenSRAM
 	ld hl, sSpriteBuffer1
 	ld de, sSpriteBuffer0
-	ld bc, 2 * SPRITEBUFFERSIZE
+	ld bc, $310
 	call CopyData
 	call CloseSRAM
 	ld de, vFrontPic
 	call InterlaceMergeSpriteBuffers
+	ld a, [wPlayerGender]
+	and a
+	jr z, .BoyStuff2
+	ld de, LeafPicBack
+	ld a, BANK(LeafPicBack)
+	jr .Routine2
+.BoyStuff2
 	ld de, RedPicBack
 	ld a, BANK(RedPicBack)
+.Routine2
 	call UncompressSpriteFromDE
 	predef ScaleSpriteByTwo
 	ld de, vBackPic

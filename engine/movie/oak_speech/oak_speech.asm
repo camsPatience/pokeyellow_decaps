@@ -72,6 +72,12 @@ OakSpeech:
 	ld a, [wStatusFlags6]
 	bit BIT_DEBUG_MODE, a
 	jp nz, .skipSpeech
+	ld hl, BoyGirlText ; added to same file as other oak text
+	call PrintText ; show it
+	call BoyGirlChoice ; added routine at the end of this file
+		ld a, [wCurrentMenuItem]
+		ld [wPlayerGender], a ; store gender. 00 for boy, 01 for girl, 02 for enby
+		call ClearScreen ; clear screen before resuming normally
 	ld de, ProfOakPic
 	lb bc, BANK(ProfOakPic), $00
 	call IntroDisplayPicCenteredOrUpperRight
@@ -93,6 +99,18 @@ OakSpeech:
 	call ClearScreen
 	ld de, RedPicFront
 	lb bc, BANK(RedPicFront), $00
+	ld a, [wPlayerGender] ; load gender
+	and a
+	jr z, .ContinueWithOakIntro1
+	;cp a, 2
+	;jp z, .loadYellowPicFront1
+	ld de, LeafPicFront
+	lb bc, BANK(LeafPicFront), $00
+	jr .ContinueWithOakIntro1
+;.loadYellowPicFront1
+	;ld de, YellowPicFront
+	;ld bc, BANK(YellowPicFront), $00
+.ContinueWithOakIntro1:
 	call IntroDisplayPicCenteredOrUpperRight
 	call MovePicLeft
 	ld hl, IntroducePlayerText
@@ -112,6 +130,19 @@ OakSpeech:
 	call ClearScreen
 	ld de, RedPicFront
 	lb bc, BANK(RedPicFront), $00
+	;call IntroDisplayPicCenteredOrUpperRight
+	ld a, [wPlayerGender]
+	and a
+	jr z, .ContinueWithOakIntro2
+	; cp a, 2
+	; jp z, .LoadYellowPicFront2
+	ld de, LeafPicFront
+	lb bc, BANK(LeafPicFront), $00
+	jr .ContinueWithOakIntro2
+;.LoadYellowPicFront2
+	;ld de, YellowPicFront
+	;lb bc, BANK(YellowPicFront), $00
+.ContinueWithOakIntro2
 	call IntroDisplayPicCenteredOrUpperRight
 	call GBFadeInFromWhite
 	ld a, [wStatusFlags3]
@@ -135,10 +166,21 @@ OakSpeech:
 	ld de, RedSprite
 	ld b, BANK(RedSprite)
 	ld c, $0C
-	call CopyVideoData
-	ld de, ShrinkPic1
-	lb bc, BANK(ShrinkPic1), $00
-	call IntroDisplayPicCenteredOrUpperRight
+	;call CopyVideoData
+	;ld de, ShrinkPic1
+	;lb bc, BANK(ShrinkPic1), $00
+	;call IntroDisplayPicCenteredOrUpperRight
+		ld a, [wPlayerGender]
+		and a
+		jr z, .NotGreen3
+		ld de, LeafSprite
+		lb bc, BANK(LeafSprite), $0C
+	.NotGreen3:
+		ld hl, vSprites
+		call CopyVideoData
+		ld de, ShrinkPic1
+		lb bc, BANK(ShrinkPic1), $00
+		call IntroDisplayPicCenteredOrUpperRight
 	ld c, 4
 	call DelayFrames
 	ld de, ShrinkPic2
@@ -191,6 +233,10 @@ IntroduceRivalText:
 OakSpeechText3:
 	text_far _OakSpeechText3
 	text_end
+
+BoyGirlText: ; This is new so we had to add a reference to get it to compile
+    text_far _BoyGirlText
+    text_end
 
 FadeInIntroPic:
 	ld hl, IntroFadePalettes
@@ -258,3 +304,22 @@ IntroDisplayPicCenteredOrUpperRight:
 	xor a
 	ldh [hStartTileID], a
 	predef_jump CopyUncompressedPicToTilemap
+
+; displays boy/girl choice
+BoyGirlChoice::
+	call SaveScreenTilesToBuffer1
+	call InitBoyGirlTextBoxParameters
+	jr DisplayBoyGirlChoice
+
+InitBoyGirlTextBoxParameters::
+   ld a, $1 ; loads the value for the unused North/West choice, that was changed to say Boy/Girl
+   ld [wTwoOptionMenuID], a
+   coord hl, 13, 7
+   ld bc, $80e
+   ret
+
+DisplayBoyGirlChoice::
+   ld a, $14
+   ld [wTextBoxID], a
+   call DisplayTextBoxID
+   jp LoadScreenTilesFromBuffer1

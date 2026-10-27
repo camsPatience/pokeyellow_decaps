@@ -374,6 +374,7 @@ JessieJamesPic::   INCBIN "gfx/trainers/jessiejames.pic"
 SECTION "Pics 7", ROMX
 
 RedPicBack::       INCBIN "gfx/player/redb.pic"
+LeafPicBack::       INCBIN "gfx/player/leafb.pic"
 OldManPicBack::    INCBIN "gfx/battle/oldmanb.pic"
 ProfOakPicBack::   INCBIN "gfx/battle/prof.oakb.pic"
 FossilKabutopsPic::     INCBIN "gfx/pokemon/front/fossilkabutops.pic"

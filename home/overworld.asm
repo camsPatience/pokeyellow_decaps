@@ -1740,6 +1740,14 @@ LoadWalkingPlayerSpriteGraphics::
 	ld [wPlayerState], a
 	ld b, BANK(RedSprite)
 	ld de, RedSprite
+	;jr LoadPlayerSpriteGraphicsCommon
+	ld a, [wPlayerGender]
+	and a
+	jr z, .ContinueLoadSprites1
+	ld de, LeafSprite
+	jr .ContinueLoadSprites1
+.ContinueLoadSprites1
+	ld hl, vNPCSprites
 	jr LoadPlayerSpriteGraphicsCommon
 
 LoadSurfingPlayerSpriteGraphicsByState::
@@ -1771,6 +1779,13 @@ LoadSurfingPlayerSpriteGraphics::
 LoadBikePlayerSpriteGraphics::
 	ld b, BANK(RedBikeSprite)
 	ld de, RedBikeSprite
+	ld a, [wPlayerGender]
+	and a
+	jr z, .ContinueLoadSprites2
+	ld de, LeafBikeSprite
+	jr .ContinueLoadSprites2
+.ContinueLoadSprites2
+	ld hl, vNPCSprites
 	; fallthrough
 LoadPlayerSpriteGraphicsCommon::
 	ld hl, vNPCSprites
