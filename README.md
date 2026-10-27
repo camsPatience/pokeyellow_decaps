@@ -1,6 +1,14 @@
 # Cam's Yellow Decapitalization+
 
-A hack of Pokémon Yellow (forked from pret's pokeyellow decompilation) which decapitalizes all of the text I could find, as well as updating the spelling and spacing of certain terms to match my personal preference. Usually, this just means using the modern spellings of those terms when possible.
+A hack of Pokémon Yellow (forked from pret's pokeyellow decompilation) which started from a decapitalization, and is slowly spiralling out of my control. Help.
+
+The current release **only** has the decapitalization, but the rest of the features in the list are being worked on.
+
+Patching requires a ROM of Pokémon Yellow (CRC32: `7d527d62`). I recommend using [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) if you don't feel like downloading any software.
+
+## Features
+### Decapitalization and terminology tweaks
+God I hope so, it's the title. Additionally, some terms have been adjusted to suit my personal taste (which mostly means using the modern spellings of them when possible).
 
 Some examples of what to expect:
 - PARLYZ HEAL -> ParalyzeHeal
@@ -8,16 +16,28 @@ Some examples of what to expect:
 - HI JUMP KICK -> HighJumpKick
 - VICEGRIP -> Vise Grip
 
-Patching requires a ROM of Pokémon Yellow (CRC32: `7d527d62`). I recommend using [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) if you don't feel like downloading any software.
+### Gender
+You can be a girl now. :thumbsup:
+
+Dialogue is either adjusted based on your gender, or neutralized (hopefully without losing the original intent too much!). You can change your gender any time at the Viridian Pokémon Center by talking to your favorite cis ally, the Gym Guide.
+
+### Running Shoes
+(Planned but not yet implemented)
+
+This is an optional patch that can be applied on top of the main one. Hold B to run when you're walking on land. Surfing is faster, too!
 
 ## Branches
-### `gender`
-By the power of following tutorials, you can choose to be a girl, now.
 
-This branch is incomplete (no dialogue changes for being a girl - I'll get to it!!), so there's no release yet. You can build it yourself if you'd like, though - just keep in mind NPCs will inflict you with gender dysphoria.
+### `gender`
+
+Working branch for implementing gender
+
+### `minus`
+
+The decapitalization alone
 
 ## Credits
-### `gender` branch
+### Gender
 - Tutorials from the pokered wiki were used to implement this feature
 - Leaf's sprites made by yesilovenachos and OmegaZeeZ, sourced from [The Spriters' Resource](https://www.spriters-resource.com/custom_edited/pokemongeneration1customs/asset/228623/)
 
