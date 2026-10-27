@@ -24,7 +24,11 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 ### Running Shoes
 (Planned but not yet implemented)
 
-This is an optional patch that can be applied on top of the main one. Hold B to run when you're walking on land. Surfing is faster, too!
+Hold B to run when you're walking on land. Surfing is faster, too!
+
+### Spaceworld 1997 sprites? Maybe?
+
+I haven't actually decided if I'm doing this but it's a maybe thing
 
 ## Branches
 
