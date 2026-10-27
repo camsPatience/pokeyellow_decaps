@@ -34,3 +34,6 @@
 *.sg1
 *.ss1
 *.ss2
+
+# bps patches
+patches/
