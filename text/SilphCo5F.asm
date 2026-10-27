@@ -90,7 +90,7 @@ _SilphCo5FPokemonReport1Text::
 
 _SilphCo5FPokemonReport2Text::
 	text "It's a #mon"
-	line "REPORT!"
+	line "Report!"
 
 	para "Over 160 #mon"
 	line "techniques have"
