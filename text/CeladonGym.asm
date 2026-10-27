@@ -95,7 +95,7 @@ _CeladonGymBattleText2::
 _CeladonGymBattleText2B::
 	text "Do you think a"
 	line "girls-only Gym"
-	line "is rare?"
+	cont "is rare?"
 	done
 
 _CeladonGymEndBattleText2::
@@ -142,7 +142,7 @@ _CeladonGymBattleText4::
 _CeladonGymBattleText4B::
 	text "Were you looking"
 	line "at these flowers"
-	line "or at me?"
+	cont "or at me?"
 	done
 
 _CeladonGymEndBattleText4::
