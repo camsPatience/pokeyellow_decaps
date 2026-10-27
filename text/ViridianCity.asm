@@ -153,7 +153,7 @@ _ViridianCityOldManNotGoodEnoughForYouText::
 	done
 
 _ViridianCitySignText::
-	text "Viridian City "
+	text "Viridian City"
 	line "The Eternally"
 	cont "Green Paradise"
 	done

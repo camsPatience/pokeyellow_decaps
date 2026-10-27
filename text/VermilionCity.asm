@@ -45,7 +45,7 @@ _VermilionCitySailor1FlashedTicketText::
 _VermilionCitySailor1YouNeedATicketText::
 	text "<PLAYER> doesn't"
 	line "have the needed"
-	cont "S.S.TICKET."
+	cont "S.S. Ticket."
 
 	para "Sorry!"
 
@@ -67,30 +67,30 @@ _VermilionCityGambler2Text::
 	done
 
 _VermilionCityMachopText::
-	text "MACHOP: Guoh!"
+	text "Machop: Guoh!"
 	line "Gogogoh!@"
 	text_end
 
 _VermilionCityMachopStompingTheLandFlatText::
 	text_start
 
-	para "A MACHOP is"
+	para "A Machop is"
 	line "stomping the land"
 	cont "flat."
 	done
 
 _VermilionCitySailor2Text::
-	text "S.S.ANNE is a"
+	text "S.S. Anne is a"
 	line "famous luxury"
 	cont "cruise ship."
 
-	para "We visit VERMILION"
+	para "We visit Vermilion"
 	line "once a year."
 	done
 
 _OfficerJennyText1::
 	text "I just caught a"
-	line "SQUIRTLE that was"
+	line "Squirtle that was"
 	cont "always getting"
 	cont "into mischief."
 
@@ -101,13 +101,13 @@ _OfficerJennyText1::
 
 _OfficerJennyText2::
 	text "You have the"
-	line "THUNDERBADGE!?"
+	line "ThunderBadge!?"
 
 	para "You must be a"
 	line "good trainer!"
 
 	para "I just caught a"
-	line "SQUIRTLE that was"
+	line "Squirtle that was"
 	cont "always getting"
 	cont "into mischief."
 
@@ -117,7 +117,7 @@ _OfficerJennyText2::
 
 _OfficerJennyText3::
 	text "OK! Please treat"
-	line "SQUIRTLE right!@"
+	line "Squirtle right!@"
 	text_end
 
 _OfficerJennyText4::
@@ -126,12 +126,12 @@ _OfficerJennyText4::
 	done
 
 _OfficerJennyText5::
-	text "How is SQUIRTLE"
+	text "How is Squirtle"
 	line "doing?"
 	done
 
 _VermilionCitySignText::
-	text "VERMILION CITY"
+	text "Viridian City"
 	line "The Port of"
 	cont "Exquisite Sunsets"
 	done
@@ -139,32 +139,32 @@ _VermilionCitySignText::
 _VermilionCityNoticeSignText::
 	text "NOTICE!"
 
-	para "ROUTE 12 may be"
+	para "Route 12 may be"
 	line "blocked off by a"
 	cont "sleeping #mon."
 
 	para "Detour through"
-	line "ROCK TUNNEL to"
-	cont "LAVENDER TOWN."
+	line "Rock Tunnel to"
+	cont "Lavender Town."
 
-	para "VERMILION POLICE"
+	para "Vermilion Police"
 	done
 
 _VermilionCityPokemonFanClubSignText::
-	text "#mon FAN CLUB"
+	text "#mon Fan Club"
 	line "All #mon fans"
 	cont "welcome!"
 	done
 
 _VermilionCityGymSignText::
-	text "VERMILION CITY"
-	line "#mon GYM"
-	cont "LEADER: LT.SURGE"
+	text "Vermilion City"
+	line "#mon Gym"
+	cont "Leader: Lt. Surge"
 
 	para "The Lightning "
 	line "American!"
 	done
 
 _VermilionCityHarborSignText::
-	text "VERMILION HARBOR"
+	text "Vermilion Harbor"
 	done
