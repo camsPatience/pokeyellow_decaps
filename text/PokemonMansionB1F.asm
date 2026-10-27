@@ -29,7 +29,7 @@ _PokemonMansionB1FScientistAfterBattleText::
 	done
 
 _PokemonMansionB1FDiaryText::
-	text "Diary; Sept. 1"
+	text "Diary: Sept. 1"
 	line "Mewtwo is far too"
 	cont "powerful."
 
