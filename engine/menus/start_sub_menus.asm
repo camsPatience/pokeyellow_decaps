@@ -519,6 +519,13 @@ StartMenu_TrainerInfo::
 DrawTrainerInfo:
 	ld de, RedPicFront
 	lb bc, BANK(RedPicFront), $01
+	ld a, [wPlayerGender]
+	and a
+	jr z, .ContinueWithLoading
+	ld de, LeafPicFront
+	lb bc, BANK(LeafPicFront), $01
+	jr .ContinueWithLoading
+.ContinueWithLoading
 	predef DisplayPicCenteredOrUpperRight
 	call DisableLCD
 	hlcoord 0, 2

@@ -11,12 +11,12 @@ _SSAnneB1FRoomsSailor1BattleText::
 
 _SSAnneB1FRoomsSailor1EndBattleText::
 	text "Right!"
-	line "Good fight, mate!"
+	line "Good fight, pal!"
 	prompt
 
 _SSAnneB1FRoomsSailor1AfterBattleText::
 	text "Haha! Want to be"
-	line "a sailor, mate?"
+	line "a sailor, pal?"
 	done
 
 _SSAnneB1FRoomsSailor2BattleText::
@@ -68,7 +68,7 @@ _SSAnneB1FRoomsSailor4AfterBattleText::
 	done
 
 _SSAnneB1FRoomsSailor5BattleText::
-	text "Matey, you're"
+	text "Pal, you're"
 	line "walking the plank"
 	cont "if you lose!"
 	done

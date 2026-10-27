@@ -386,12 +386,29 @@ FishingAnim:
 	ld hl, wMovementFlags
 	set BIT_LEDGE_OR_FISHING, [hl]
 	ld hl, vNPCSprites
+	ld a, [wPlayerGender]
+	and a
+	jr z, .BoySpriteLoad
+	ld de, LeafSprite
+	ld hl, vNPCSprites
+	ld bc, (BANK(LeafSprite) << 8) + $0c
+	jr .KeepLoadingSpriteStuff
+.BoySpriteLoad
 	ld de, RedSprite
-	ld b, BANK(RedSprite)
-	ld c, 12
+	ld hl, vNPCSprites
+	lb bc, BANK(RedSprite), $c
+.KeepLoadingSpriteStuff
 	call CopyVideoData
+	ld a, [wPlayerGender]
+	and a
+	jr z, .BoyTiles
+	ld a, $4
+	ld hl, LeafFishingTiles
+	jr .ContinueRoutine
+.BoyTiles
 	ld a, $4
 	ld hl, RedFishingTiles
+.ContinueRoutine
 	call LoadAnimSpriteGfx
 	ld a, [wSpritePlayerStateData1ImageIndex]
 	ld c, a
@@ -492,6 +509,12 @@ RedFishingTiles:
 	fishing_gfx RedFishingTilesFront, 2, $02
 	fishing_gfx RedFishingTilesBack,  2, $06
 	fishing_gfx RedFishingTilesSide,  2, $0a
+	fishing_gfx RedFishingRodTiles,   3, $fd
+
+LeafFishingTiles:
+	fishing_gfx LeafFishingTilesFront, 2, $02
+	fishing_gfx LeafFishingTilesBack,  2, $06
+	fishing_gfx LeafFishingTilesSide,  2, $0a
 	fishing_gfx RedFishingRodTiles,   3, $fd
 
 _HandleMidJump::

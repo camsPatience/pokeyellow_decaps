@@ -1,9 +1,16 @@
 ; see constants/player_constants.asm
 
-DefaultNamesPlayer:
+DefaultNamesBoy:
 	db "New Name"
 FOR n, 1, NUM_PLAYER_NAMES + 1
-	next #PLAYERNAME{d:n}
+	next #BOYNAME{d:n}
+ENDR
+	db "@"
+
+DefaultNamesGirl:
+	db "New Name"
+FOR n, 1, NUM_PLAYER_NAMES + 1
+	next #GIRLNAME{d:n}
 ENDR
 	db "@"
 

@@ -1714,7 +1714,7 @@ wMonHBackSprite:: dw
 wMonHMoves:: ds NUM_MOVES
 wMonHGrowthRate:: db
 wMonHLearnset:: flag_array NUM_TMS + NUM_HMS
-	ds 1
+wMonHPicBank:: db
 wMonHeaderEnd::
 
 ; saved at the start of a battle and then written back at the end of the battle
@@ -2294,7 +2294,14 @@ wRoute18Gate1FCurScript:: db
 	ds 78
 wGameProgressFlagsEnd::
 
-	ds 56
+wPlayerGender::
+	; $00 = boy
+	; $01 = girl
+	; $02 = enby
+	ds 1
+
+; unused
+	ds 55
 
 wObtainedHiddenItemsFlags:: flag_array MAX_HIDDEN_ITEMS
 

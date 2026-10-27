@@ -14,3 +14,21 @@ _ViridianPokecenterCooltrainerMText::
 	para "They don't charge"
 	line "any money either!"
 	done
+
+_ViridianPokeCenterHRTText1::
+	text "Yo! Champ in"
+	line "making!"
+
+	para "Not feeling your"
+	line "current look?"
+	cont "Want to switch"
+	cont "it out?"
+	done
+
+_ViridianPokeCenterHRTText2::
+	text "You got it,"
+	line "champ!"
+
+	para "You'll feel brand"
+	line "new right away!"
+	done

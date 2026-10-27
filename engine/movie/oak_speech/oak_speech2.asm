@@ -1,15 +1,34 @@
 ChoosePlayerName:
 	call OakSpeechSlidePicRight
-	ld de, DefaultNamesPlayer
+	;ld de, DefaultNamesPlayer
+	;call DisplayIntroNameTextBox
+	ld a, [wPlayerGender]
+	cp a, $01
+	jr z, .AreGirl
+	;cp a, $01 ;enby check, unused
+	; jr z, .AreEnby
+	ld de, DefaultNamesBoy
 	call DisplayIntroNameTextBox
 	ld a, [wCurrentMenuItem]
 	and a
 	jr z, .customName
-	ld hl, DefaultNamesPlayerList
+	ld hl, DefaultNamesBoyList
 	call GetDefaultName
 	ld de, wPlayerName
 	call OakSpeechSlidePicLeft
 	jr .done
+.AreGirl ;boy naming routine but with girl's names
+	ld de, DefaultNamesGirl
+	call DisplayIntroNameTextBox
+	ld a, [wCurrentMenuItem]
+	and a
+	jr z, .customName
+	ld hl, DefaultNamesGirlList
+	call GetDefaultName
+	ld de, wPlayerName
+	call OakSpeechSlidePicLeft
+	jr .done
+; pretend there's a copy for the enby naming routine here too
 .customName
 	ld hl, wPlayerName
 	xor a ; NAME_PLAYER_SCREEN
@@ -22,6 +41,18 @@ ChoosePlayerName:
 	call Delay3
 	ld de, RedPicFront
 	ld b, BANK(RedPicFront)
+;	call IntroDisplayPicCenteredOrUpperRight
+;.done
+;	ld hl, YourNameIsText
+;	jp PrintText
+	ld a, [wPlayerGender]
+	and a
+	jr z, .ContinueWithRoutine
+	;cp a, $02
+	;jr z, .LoadYellowPicFront
+	ld de, LeafPicFront
+	ld b, BANK(LeafPicFront)
+.ContinueWithRoutine
 	call IntroDisplayPicCenteredOrUpperRight
 .done
 	ld hl, YourNameIsText

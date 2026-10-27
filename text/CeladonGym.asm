@@ -88,7 +88,7 @@ _CeladonGymTM21NoRoomText::
 _CeladonGymBattleText2::
 	text "Hey!"
 
-	para "You are not"
+	para "Boys aren't"
 	line "allowed in here!"
 	done
 
@@ -98,9 +98,8 @@ _CeladonGymEndBattleText2::
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "Bleaah!"
-	line "I hope Erika"
-	cont "wipes you out!"
+	text "I just got care-"
+	line "less, that's all!"
 	done
 
 _CeladonGymBattleText3::
@@ -124,8 +123,9 @@ _CeladonGymAfterBattleText3::
 	done
 
 _CeladonGymBattleText4::
-	text "Aren't you the"
-	line "peeping Tom?"
+	text "Were you admiring"
+	line "the flowers or"
+	cont "peeping at me?"
 	done
 
 _CeladonGymEndBattleText4::

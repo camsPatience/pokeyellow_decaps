@@ -1321,3 +1321,8 @@ _HookedMonAttackedText::
 	text_start
 	cont "attacked!"
 	prompt
+
+_BoyGirlText::
+	text "Are you a boy"
+	line "or a girl?"
+	done
