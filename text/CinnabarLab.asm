@@ -10,7 +10,7 @@ _CinnabarLabFishingGuruText::
 _CinnabarLabPhotoText::
 	text "A photo of the"
 	line "Lab's founder,"
-	cont "DR. Fuji!"
+	cont "Dr. Fuji!"
 	done
 
 _CinnabarLabMeetingRoomSignText::

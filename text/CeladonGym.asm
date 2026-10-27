@@ -92,6 +92,12 @@ _CeladonGymBattleText2::
 	line "allowed in here!"
 	done
 
+_CeladonGymBattleText2B::
+	text "Do you think a"
+	line "girls-only Gym"
+	line "is rare?"
+	done
+
 _CeladonGymEndBattleText2::
 	text "You're"
 	line "too rough!"
@@ -101,6 +107,11 @@ _CeladonGymAfterBattleText2::
 	text "Bleaah!"
 	line "I hope Erika"
 	cont "wipes you out!"
+	done
+
+_CeladonGymAfterBattleText2B::
+	text "I just got care-"
+	line "less, that's all!"
 	done
 
 _CeladonGymBattleText3::
@@ -128,6 +139,12 @@ _CeladonGymBattleText4::
 	line "peeping Tom?"
 	done
 
+_CeladonGymBattleText4B::
+	text "Were you looking"
+	line "at these flowers"
+	line "or at me?"
+	done
+
 _CeladonGymEndBattleText4::
 	text "I'm"
 	line "in shock!"
@@ -137,6 +154,12 @@ _CeladonGymAfterBattleText4::
 	text "Oh, you weren't"
 	line "peeping? We get a"
 	cont "lot of gawkers!"
+	done
+
+_CeladonGymAfterBattleTextB::
+	text "How do I go about"
+	line "becoming ladylike"
+	cont "like Erika?"
 	done
 
 _CeladonGymBattleText5::
