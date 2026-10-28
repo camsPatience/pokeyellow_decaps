@@ -45,17 +45,13 @@ I believe that the jank is a core part of gen 1's identity, so I won't be fixing
 
 ## Branches
 
+### `master`
+
+Main branch with all features
+
 ### `minus`
 
 The decapitalization alone
-
-### `gender`
-
-Working branch for implementing gender
-
-### `runningshoes`
-
-Working branch for implementing running
 
 ## Credits
 ### General
