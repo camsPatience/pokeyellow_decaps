@@ -1466,7 +1466,7 @@ AreThereAtLeastTwoStepsInPikachuFollowCommandBuffer:
 	ld a, [wPikachuFollowCommandBufferSize]
 	cp $ff
 	ret z
-	cp $2
+	cp $1
 	jr nc, .set_carry
 	and a
 	ret
