@@ -1,6 +1,8 @@
 # Cam's Yellow Decapitalization+
 
-![Screenshot of the title screen of Cam's Yellow Decapitalization+, near-identical to the original Yellow title screen except the "Pika!" is replaced with "CYD+".](_readme/titlescreen.png)
+<p align="center" alt="Screenshot of the title screen of Cam's Yellow Decapitalization+, near-identical to the original Yellow title screen except the &quot;Pika!&quot; is replaced with &quot;CYD+&quot;.">
+    <img src="_readme/titlescreen.png">
+</p>
 
 A hack of Pokémon Yellow (forked from pret's pokeyellow decompilation) which started from a decapitalization, and is slowly spiralling out of my control. Help.
 
