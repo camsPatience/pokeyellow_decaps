@@ -31,7 +31,7 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 - X **Pikachu's Beach Without Surf** (or maybe letting Pikachu learn Surf? don't quote me on this)
 - **Gendered Pokémon** - No gameplay effect, but should be accurate for gen 2 transfers (tested with my team from my main file)
 - **"Already Caught" Icon**
-- **Shiny Pokémon**
+- **Shiny Pokémon** - Also just visual, but should also be accurate for gen 2 transfers. Includes a shiny icon in-battle and in menus for DMG players
 
 ### "Maybe" features I haven't decided on yet
 
