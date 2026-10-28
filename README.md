@@ -33,11 +33,9 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 - **"Already Caught" Icon**
 - **Shiny Pokémon** - Also just visual, but should also be accurate for gen 2 transfers. Includes a shiny icon in-battle and in menus for DMG players
 
-### "Maybe" features I haven't decided on yet
+### Spaceworld '97 Sprites
 
-(Features added should ideally be ones that maintain full vanilla compatibility. Mons *should* be able to be traded to other gen 1 games and transferred to gen 2+ without issue)
-
-- **Spaceworld '97 Sprites**
+Supplied as an extra patch to be applied on top of a patched CYD+ ROM (probably works on CYD- too, yet to be tested)
 
 ### No bugfixes unless absolutely necessary
 
