@@ -38,7 +38,7 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 - **Running Shoes** - Hold B to run. Doesn't have any of the other bells and whistles that some other versions do (i.e. you can't "run" on the bike or while Surfing)
 - **Double-speed Surfing**
 - **Overworld HM Use**
-- X **Pikachu's Beach Without Surf** (or maybe letting Pikachu learn Surf? don't quote me on this)
+- **Pikachu's Beach Without Surf** (or maybe letting Pikachu learn Surf? don't quote me on this)
 - **Gendered Pokémon** - No gameplay effect, but should be accurate for gen 2 transfers (tested with my team from my main file)
 - **"Already Caught" Icon**
 - **Shiny Pokémon** - Also just visual, but should also be accurate for gen 2 transfers. Includes a shiny icon in-battle and in menus for DMG players

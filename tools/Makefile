@@ -8,6 +8,7 @@ tools := \
 	make_patch \
 	pcm \
 	pkmncompress \
+	trim_sgb_tilemap \
 	scan_includes
 
 all: $(tools)

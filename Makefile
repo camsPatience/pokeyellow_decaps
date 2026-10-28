@@ -186,7 +186,6 @@ gfx/surfing_pikachu/surfing_pikachu_1c.2bpp: tools/gfx += --trim-whitespace
 %.pic: %.2bpp
 	tools/pkmncompress $< $@
 
-
 ### Catch-all audio rules
 
 %.pcm: %.wav
