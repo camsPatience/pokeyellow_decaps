@@ -2313,7 +2313,13 @@ wObtainedHiddenCoinsFlags:: flag_array MAX_HIDDEN_COINS
 ; $02 = surfing
 wWalkBikeSurfState:: db
 
-	ds 10
+; 0 = standard pal
+; 1 = shiny pal
+wShinyMon:: db
+;used to load shiny stars on battlemon hud
+wShinyBattleMon:: db
+
+	ds 8
 
 wTownVisitedFlag:: flag_array NUM_CITY_MAPS
 
@@ -2387,12 +2393,19 @@ wMovementFlags:: db
 
 wCompletedInGameTradeFlags:: dw
 
-	ds 2
+	; usually 0, altered during in-game trades and while viewing PC HOF
+	; set to 1 before displaying outgoing player mon's sprite
+	; set to 2 before displaying incoming NPC mon's sprite
+	; set to 3 while viewing HOF through PC
+	; reset to 0 after displaying incoming sprite or exiting HOF
+wTradeOccurring:: db
+wPlayerTradedMonDVs:: db ; holds attack and def DVs of outgoing mon
+	ds 1 ; don't remove, holds speed and special DVs for traded mon
 
 wWarpedFromWhichWarp:: db
 wWarpedFromWhichMap:: db
 
-	ds 2
+	ds 1
 
 wCardKeyDoorY:: db
 wCardKeyDoorX:: db

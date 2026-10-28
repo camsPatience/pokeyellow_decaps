@@ -119,6 +119,9 @@ HoFShowMonOrPlayer:
 	ld b, SET_PAL_POKEMON_WHOLE_SCREEN
 	ld c, 0
 	call RunPaletteCommand
+	ld a, [wWhichPokemon]
+	inc a
+	ld [wWhichPokemon], a
 	ld a, %11100100
 	ldh [rBGP], a
 	call UpdateCGBPal_BGP

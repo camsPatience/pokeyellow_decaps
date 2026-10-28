@@ -1769,6 +1769,8 @@ SendOutMon:
 	jp z, .skipDrawingEnemyHUDAndHPBar ; if HP is zero, skip drawing the HUD and HP bar
 	call DrawEnemyHUDAndHPBar
 .skipDrawingEnemyHUDAndHPBar
+	ld b, SET_PAL_BATTLE
+	call RunPaletteCommand
 	call DrawPlayerHUDAndHPBar
 	predef LoadMonBackPic
 	xor a
@@ -1791,8 +1793,6 @@ SendOutMon:
 	ld [wPlayerDisabledMove], a
 	ld [wPlayerDisabledMoveNumber], a
 	ld [wPlayerMonMinimized], a
-	ld b, SET_PAL_BATTLE
-	call RunPaletteCommand
 	ld hl, wEnemyBattleStatus1
 	res USING_TRAPPING_MOVE, [hl]
 	callfar IsThisPartyMonStarterPikachu
@@ -1900,6 +1900,14 @@ DrawPlayerHUDAndHPBar:
 	hlcoord 10, 7
 	call CenterMonName
 	call PlaceString
+; check to see if we need to print shiny stars on the player HUD
+	ld a, [wShinyBattleMon]
+	and a
+	jr z, .getBattleMonData
+	hlcoord 18, 8
+	ld de, ShinyStarsBattleText
+	call PlaceString
+.getBattleMonData
 	call PrintPlayerMonGender
 	ld hl, wBattleMonSpecies
 	ld de, wLoadedMon
@@ -1956,6 +1964,14 @@ DrawEnemyHUDAndHPBar:
 	lb bc, 4, 12
 	call ClearScreenArea
 	callfar PlaceEnemyHUDTiles
+; check to see if we need to print shiny stars on the enemy HUD
+	ld a, [wShinyMon]
+	and a
+	jr z, .getEnemyMonName
+	hlcoord 8, 1
+	ld de, ShinyStarsBattleText
+	call PlaceString
+.getEnemyMonName
    ld a, [wIsInBattle]
 	cp 2 ; is it a trainer battle?
    jr z, .trainerBattle
@@ -6882,3 +6898,6 @@ PrintGenderCommon:
 	pop hl
 	ld [hl], a
 	ret
+
+ShinyStarsBattleText:
+	db "<***>@"

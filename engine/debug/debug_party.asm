@@ -40,6 +40,13 @@ IF DEF(_DEBUG)
 	ld hl, wPartyMon4Moves + 2
 	ld [hl], a
 
+	; Pikachu gets shiny DVs
+	ld hl, wPartyMon4DVs
+	ld a, $fa ; these will be the ATK/DEF DVs... adjust these based on your own implemented shiny values
+	ld [hli], a
+	ld a, $aa ; and these will be the SPD/SPC DVs... adjust as needed
+	ld [hl], a
+
 	; Snorlax gets four HM moves.
 	ld hl, wPartyMon1Moves
 	ld a, FLY

@@ -103,17 +103,33 @@ InGameTrade_DoTrade:
 	ld a, [wCurPartySpecies]
 	cp b
 	ld a, TRADETEXT_WRONG_MON
-	jr nz, .tradeFailed ; jump if the selected mon's species is not the required one
+	jp nz, .tradeFailed ; jump if the selected mon's species is not the required one
 	ld a, [wWhichPokemon]
 	ld hl, wPartyMon1Level
 	ld bc, PARTYMON_STRUCT_LENGTH
 	call AddNTimes
 	ld a, [hl]
 	ld [wCurEnemyLevel], a
+	ld a, [wWhichPokemon]
+	ld hl, wPartyMon1DVs
+	call AddNTimes
+	ld a, [hli]
+	ld [wPlayerTradedMonDVs], a
+	ld a, [hl]
+	ld [wPlayerTradedMonDVs + 1], a
 	ld b, FLAG_SET
 	call InGameTrade_FlagActionPredef
 	ld hl, ConnectCableText
 	call PrintText
+	ld a, [wInGameTradeReceiveMonSpecies]
+	ld [wCurPartySpecies], a
+	xor a
+	ld [wMonDataLocation], a
+	ld [wRemoveMonFromBox], a
+	call RemovePokemon
+	ld a, $80
+	ld [wMonDataLocation], a
+	call AddPartyMon
 	ld a, [wWhichPokemon]
 	push af
 	ld a, [wCurEnemyLevel]
@@ -125,15 +141,6 @@ InGameTrade_DoTrade:
 	ld [wCurEnemyLevel], a
 	pop af
 	ld [wWhichPokemon], a
-	ld a, [wInGameTradeReceiveMonSpecies]
-	ld [wCurPartySpecies], a
-	xor a
-	ld [wMonDataLocation], a ; not used
-	ld [wRemoveMonFromBox], a
-	call RemovePokemon
-	ld a, $80 ; prevent the player from naming the mon
-	ld [wMonDataLocation], a
-	call AddPartyMon
 	call InGameTrade_CopyDataToReceivedMon
 	call InGameTrade_CheckForTradeEvo
 	call ClearScreen

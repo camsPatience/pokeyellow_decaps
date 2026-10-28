@@ -33,6 +33,7 @@ PokemonTower6FDefaultScript:
 	ld a, TEXT_POKEMONTOWER6F_BEGONE
 	ldh [hTextID], a
 	call DisplayTextID
+	SetEvent EVENT_FIGHTING_GHOST_MAROWAK
 	ld a, RESTLESS_SOUL
 	ld [wCurOpponent], a
 	ld a, 30
@@ -61,6 +62,7 @@ PokemonTower6FMarowakBattleScript:
 	ld a, [wBattleResult]
 	and a
 	jr nz, .did_not_defeat
+	ResetEvent EVENT_FIGHTING_GHOST_MAROWAK
 	SetEvent EVENT_BEAT_GHOST_MAROWAK
 	ld a, TEXT_POKEMONTOWER6F_MAROWAK_DEPARTED
 	ldh [hTextID], a
@@ -72,6 +74,7 @@ PokemonTower6FMarowakBattleScript:
 	ld [wCurMapScript], a
 	ret
 .did_not_defeat
+	ResetEvent EVENT_FIGHTING_GHOST_MAROWAK
 	ld a, $1
 	ld [wSimulatedJoypadStatesIndex], a
 	ld a, PAD_RIGHT

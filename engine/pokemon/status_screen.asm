@@ -144,6 +144,14 @@ StatusScreen:
 	ld de, wPokedexNum
 	lb bc, LEADING_ZEROES | 1, 3
 	call PrintNumber ; Pokémon no.
+;check whether to print stars
+	ld a, [wShinyMon]
+	and a
+	jr z, .PrintType
+	hlcoord 6, 7
+	ld de, ShinyStarsText
+	call PlaceString
+.PrintType
 	hlcoord 11, 10
 	predef PrintMonType
 	ld hl, NamePointers2
@@ -234,6 +242,9 @@ StatusText:
 
 OKText:
 	db "OK@"
+
+ShinyStarsText:
+	db "<*><**>@"
 
 ; Draws a line starting from hl high b and wide c
 DrawLineBox:

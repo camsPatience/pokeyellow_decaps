@@ -43,6 +43,7 @@ PKMNLeaguePC:
 	ldh [hTileAnimations], a
 	pop af
 	ld [wUpdateSpritesEnabled], a
+	ld [wTradeOccurring], a
 	pop hl
 	res BIT_NO_TEXT_DELAY, [hl]
 	call GBPalWhiteOutWithDelay3
@@ -54,6 +55,8 @@ LeaguePCShowTeam:
 	ld c, PARTY_LENGTH
 .loop
 	push bc
+	ld a, 3
+	ld [wTradeOccurring], a
 	call LeaguePCShowMon
 	call WaitForTextScrollButtonPress
 	ldh a, [hJoyHeld]

@@ -242,6 +242,8 @@ Trade_ShowPlayerMon:
 	ld b, HIGH(vBGMap0)
 	call CopyScreenTileBufferToVRAM
 	call ClearScreen
+	ld a, 1
+	ld [wTradeOccurring], a
 	ld a, [wTradedPlayerMonSpecies]
 	call Trade_LoadMonSprite
 	ld a, $7e
@@ -373,6 +375,8 @@ Trade_ShowEnemyMon:
 	ldh [hAutoBGTransferEnabled], a
 	ld a, [wTradedEnemyMonSpecies]
 	call PlayCry
+	xor a
+	ld [wTradeOccurring], a
 	call Trade_Delay100
 	hlcoord 4, 10
 	lb bc, 8, 12

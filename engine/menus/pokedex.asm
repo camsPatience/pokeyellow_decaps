@@ -444,6 +444,8 @@ ShowPokedexData:
 
 ; function to display pokedex data from inside the pokedex
 ShowPokedexDataInternal:
+	xor a
+	ld [wShinyMon], a
 	ld hl, wStatusFlags2
 	set BIT_NO_AUDIO_FADE_OUT, [hl]
 	ld a, $33 ; 3/7 volume
@@ -464,6 +466,23 @@ ShowPokedexDataInternal:
 	call c, Pokedex_PrintFlavorTextAtRow11
 .waitForButtonPress
 	call JoypadLowSensitivity
+	ldh a, [hJoyPressed]
+	bit B_PAD_SELECT, a
+	jr z, .checkIfAOrBPressed
+; SELECT was pressed
+	ld a, [wShinyMon]
+	and a					; are shiny palettes already active?
+	jr nz, .resetDexPalette	; if so, jump to reset standard palettes
+	inc a					; 'a' now equals 1 (the shiny palette value)
+	jr .swapDexPalette
+.resetDexPalette
+	xor a					; 'a' now equals 0 (the standard palette value)
+.swapDexPalette
+	ld [wShinyMon], a		; load new value into wShinyMon
+	ld b, SET_PAL_POKEDEX
+	call RunPaletteCommand	; change on-screen Mon palette
+	jr .waitForButtonPress
+.checkIfAOrBPressed
 	ldh a, [hJoy5]
 	and PAD_A | PAD_B
 	jr z, .waitForButtonPress

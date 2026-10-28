@@ -29,14 +29,14 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 - **Double-speed Surfing**
 - **Overworld HM Use**
 - X **Pikachu's Beach Without Surf** (or maybe letting Pikachu learn Surf? don't quote me on this)
+- **Gendered Pokémon** - No gameplay effect, but should be accurate for gen 2 transfers (tested with my team from my main file)
 - **"Already Caught" Icon**
+- **Shiny Pokémon**
 
 ### "Maybe" features I haven't decided on yet
 
 (Features added should ideally be ones that maintain full vanilla compatibility. Mons *should* be able to be traded to other gen 1 games and transferred to gen 2+ without issue)
 
-- **Shiny Pokémon**
-- **Gendered Pokémon**
 - **Spaceworld '97 Sprites**
 
 ### No bugfixes unless absolutely necessary

@@ -30,6 +30,12 @@ SetPal_Battle:
 	ld de, wPalPacket
 	ld bc, $10
 	call CopyData
+	push bc
+	ld hl, wBattleMonDVs
+	call CheckForShinyMon ; check if player Mon is shiny
+	ld a, [wShinyMon]
+	ld [wShinyBattleMon], a ; store this value for drawing shiny stars on the player HUD
+	pop bc
 	ld hl, wBattleMonSpecies
 	ld a, [hl]
 	and a
@@ -41,6 +47,27 @@ SetPal_Battle:
 .noBattleMon
 	call DeterminePaletteID
 	ld b, a
+	push bc
+	CheckEvent EVENT_FIGHTING_GHOST_MAROWAK
+	jr nz, .monNotShiny ; prevent Ghost Marowak being shiny
+	ld b, SILPH_SCOPE
+	call IsItemInBag
+	jr nz, .doShinyCheck ; if Silph Scope is in bag, check for shininess normally
+	ld a, [wCurMap]
+	cp POKEMON_TOWER_3F
+	jr c, .doShinyCheck
+	cp POKEMON_TOWER_7F + 1
+	jr nc, .doShinyCheck
+; if player is in Pokemon Tower with no Silph Scope, force normal palettes for GHOSTS
+.monNotShiny
+	xor a
+	ld [wShinyMon], a
+	jr .doneCheckingIfShiny
+.doShinyCheck
+	ld hl, wEnemyMonDVs
+	call CheckForShinyMon ; check if enemy Mon is shiny
+.doneCheckingIfShiny
+	pop bc
 	ld hl, wEnemyMonSpecies2
 	call DeterminePaletteID
 	ld c, a
@@ -79,7 +106,22 @@ SetPal_StatusScreen:
 	cp NUM_POKEMON_INDEXES + 1
 	jr c, .pokemon
 	ld a, $1 ; not pokemon
+	jr .getPalette
 .pokemon
+	push af ; saves [wCurPartySpecies] currently in 'a'
+	ld a, [wMonDataLocation]
+	and a
+	ld a, [wWhichPokemon]
+	ld hl, wPartyMon1DVs			; load PartyMonDVs
+	ld bc, wPartyMon2 - wPartyMon1
+	jr z, .getDVsAndCheckIfShiny	; jump if [wMonDataLocation] = 0
+	ld hl, wBoxMon1DVs 				; otherwise, load BoxMonDVs if in PC
+	ld bc, wBoxMon2 - wBoxMon1
+.getDVsAndCheckIfShiny
+	call AddNTimes					; moves 'hl' to correct Mon's DVs
+	call CheckForShinyMon
+	pop af	; restores [wCurPartySpecies] to 'a'
+.getPalette
 	call DeterminePaletteIDOutOfBattle
 	push af
 	ld hl, wPalPacket + 1
@@ -206,6 +248,34 @@ SetPal_PokemonWholeScreen:
 	ld a, PAL_BLACK
 	jr nz, .next
 	ld a, [wWholeScreenPaletteMonSpecies]
+	push af 					; stores [wWholeScreenPaletteMonSpecies]
+	ld a, [wTradeOccurring] 	; begin checking if in-game trade is occurring or if viewing Hall of Fame
+	and a						; does 'a' = 0?
+	jr z, .getPartyMonTeamslot	; jump if 'a' = 0, i.e. not in a trade nor viewing Hall of Fame
+	cp 1
+	jr z, .getOutgoingPlayerMonDVs	; jump if loading player's outgoing traded Mon's sprite
+	cp 2
+	jr z, .getIncomingNPCMonTeamslot	; jump if loading NPC's incoming traded Mon's sprite
+	xor a								; if we make it here, we're viewing the HoF... set 'a' to 0
+	ld [wShinyMon], a					; force Mon sprites to be standard palette
+	jr .getPalette						; skips the usual shiny check
+.getOutgoingPlayerMonDVs
+	ld hl, wPlayerTradedMonDVs
+	jr .checkIfMonIsShiny
+.getIncomingNPCMonTeamslot
+	ld a, [wPartyCount]	; ensures DVs of final team Mon (aka incoming traded Mon) will be read
+	dec a				; accounts for offset between wPartyCount and wWhichPokemon
+	jr .getMonDVs
+.getPartyMonTeamslot
+	ld a, [wWhichPokemon]	; gets teamslot for DV checking
+.getMonDVs
+	ld hl, wPartyMon1DVs
+	ld bc, wPartyMon2 - wPartyMon1
+	call AddNTimes
+.checkIfMonIsShiny
+	call CheckForShinyMon
+.getPalette
+	pop af 							; restores [wWholeScreenPaletteMonSpecies]
 	call DeterminePaletteIDOutOfBattle
 .next
 	ld [wPalPacket + 1], a
@@ -307,7 +377,12 @@ DeterminePaletteIDOutOfBattle:
 .skipDexNumConversion
 	ld e, a
 	ld d, 0
+	ld a, [wShinyMon]
+	cp 1
+	ld hl, ShinyMonsterPalettes
+	jr z, .getListEntry
 	ld hl, MonsterPalettes ; not just for Pokemon, Trainers use it too
+.getListEntry
 	add hl, de
 	ld a, [hl]
 	ret
@@ -437,6 +512,46 @@ GetPal_Pikachu::
 .battleOrTradeCenter
 	ld a, PAL_GRAYMON - 1
 	jr .town
+
+CheckForShinyMon:
+; given a Mon's DVs in hl, alters the value in wShinyMon
+; wShinyMon = 1 loads a shiny palette
+; wShinyMon = 0 loads a standard palette
+	xor a				; set 'a' to 0
+	ld [wShinyMon], a	; initialize to standard palette value
+	push hl				; store Mon's ATK/DEF DVs to be recalled later
+	ld a, [hl]			; 'a' = ATK/DEF DVs
+	swap a				; moves ATK DV to low nybble
+	srl a				; moves bit 0 from 'a' to carry flag
+	srl a				; moves bit 1 from 'a' to carry flag
+	jr nc, .notShinyMon	; exit routine if carry flag = 0
+; proceed if valid Attack DV was found
+	pop hl								; restore ATK/DEF DV values
+; get Defense DV
+	ld a, [hli]							; 'a' = ATK/DEF DVs, 'hl' = SPD/SPC DVs
+	call IsolateDVAndCheckIfShinyValue	; DEF DV already low nybble, no swap needed
+	ret nz								; exit if DEF DV != 10
+; get Speed DV
+	ld a, [hl]							; 'a' = SPD/SPC DVs
+	swap a								; moves SPD DV to low nybble
+	call IsolateDVAndCheckIfShinyValue
+	ret nz								; exit if SPD DV != 10
+; get Special DV
+	ld a, [hl]							; 'a' = SPD/SPC DVs
+	call IsolateDVAndCheckIfShinyValue	; SPC DV already low nybble, no swap needed
+	ret nz								; exit if SPC DV != 10
+; making it here means all DVs matched shiny values
+	ld a, 1
+	ld [wShinyMon], a ; alter wShinyMon to load shiny palette and exit
+	ret
+.notShinyMon
+	pop hl ; clears DVs from stack prior to exit
+	ret
+
+IsolateDVAndCheckIfShinyValue:
+	and $0f
+	cp $a
+	ret
 
 InitPartyMenuBlkPacket:
 	ld hl, BlkPacket_PartyMenu

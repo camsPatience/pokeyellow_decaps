@@ -1,4 +1,6 @@
 HallOfFamePC:
+	xor a
+	ld [wWhichPokemon], a
 	callfar AnimateHallOfFame
 	call ClearScreen
 	ld c, 100
