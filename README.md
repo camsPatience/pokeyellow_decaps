@@ -23,12 +23,12 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 
 ### Various quality-of-life
 
-(These are in-progress; unfinished features are prefixed with an [X])
+(These are in-progress; unfinished features are prefixed with an X)
 
 - **Running Shoes** - Hold B to run. Doesn't have any of the other bells and whistles that some other versions do (i.e. you can't "run" on the bike or while Surfing)
 - **Double-speed Surfing**
 - **Overworld HM Use**
-- \[X] **Pikachu's Beach Without Surf** (or maybe letting Pikachu learn Surf? don't quote me on this)
+- X **Pikachu's Beach Without Surf** (or maybe letting Pikachu learn Surf? don't quote me on this)
 
 ### "Maybe" features I haven't decided on yet
 
