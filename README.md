@@ -22,9 +22,10 @@ You can be a girl now. :thumbsup:
 Dialogue is either adjusted based on your gender, or neutralized (hopefully without losing the original intent too much!). You can change your gender any time at the Viridian Pokémon Center by talking to your favorite cis ally, the Gym Guide.
 
 ### Running Shoes
-(Planned but not yet implemented)
 
 Hold B to run when you're walking on land. Surfing is faster, too!
+
+(Potential issue: Pikachu nearly gets left behind a lot of the time. I haven't seen him fully leave the screen in my testing, but you never know...)
 
 ### Spaceworld 1997 sprites? Maybe?
 
@@ -45,8 +46,9 @@ Working branch for implementing gender
 Working branch for implementing running
 
 ## Credits
+### General
+- Tutorials from the pokered wiki were referenced in implementing various features
 ### Gender
-- Tutorials from the pokered wiki were used to implement this feature
 - Leaf's sprites made by yesilovenachos and OmegaZeeZ, sourced from [The Spriters' Resource](https://www.spriters-resource.com/custom_edited/pokemongeneration1customs/asset/228623/)
 
 # ![crossed-out picture of the Master Control Program from Tron, as depicted in Kingdom Hearts II](https://github.com/camsPatience/camsPatience/blob/04452724a30d22c4f4ea41814bc829cb3b6295d4/fuck_AI.png) Generative AI was not (and will never be) used in this repository.
