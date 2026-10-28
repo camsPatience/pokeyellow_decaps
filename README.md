@@ -1,5 +1,7 @@
 # Cam's Yellow Decapitalization+
 
+![Screenshot of the title screen of Cam's Yellow Decapitalization+, near-identical to the original Yellow title screen except the "Pika!" is replaced with "CYD+".](_readme/titlescreen.png)
+
 A hack of Pokémon Yellow (forked from pret's pokeyellow decompilation) which started from a decapitalization, and is slowly spiralling out of my control. Help.
 
 The current release **only** has the decapitalization, but the rest of the features in the list are being worked on.
