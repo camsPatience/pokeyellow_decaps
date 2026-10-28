@@ -6442,7 +6442,7 @@ LoadPlayerBackPic:
 	ASSERT BANK(RedPicBack) == BANK(ProfOakPicBack)
 	call UncompressSpriteFromDE
 	;predef ScaleSpriteByTwo
-	call LoadBackSpriteUnzoomed
+	call LoadBackSpriteUnzoomed2
 	ld hl, wShadowOAM
 	xor a
 	ldh [hOAMTile], a ; initial tile number
@@ -6902,3 +6902,9 @@ PrintGenderCommon:
 
 ShinyStarsBattleText:
 	db "<***>@"
+
+LoadBackSpriteUnzoomed2:
+	ld a, $66
+	ld de, vBackPic
+	push de
+	jp LoadUncompressedBackSprite

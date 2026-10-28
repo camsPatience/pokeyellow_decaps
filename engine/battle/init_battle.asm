@@ -272,7 +272,7 @@ CopyUncompressedPicToHL::
 	jr nz, .flippedLoop
 	ret
 
-LoadBackSpriteUnzoomed::
+LoadBackSpriteUnzoomed:
 	ld a, $66
 	ld de, vBackPic
 	push de
