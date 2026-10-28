@@ -1,8 +1,18 @@
 # Cam's Yellow Decapitalization+
 
+<p align="center" alt="Screenshot of the title screen of Cam's Yellow Decapitalization+, near-identical to the original Yellow title screen except the &quot;Pika!&quot; is replaced with &quot;CYD+&quot;.">
+    <img src="_readme/titlescreen.png">
+</p>
+(this title screen is only in the "Plus" version of the patch)
+
 A hack of Pokémon Yellow (forked from pret's pokeyellow decompilation) which started from a decapitalization, and is slowly spiralling out of my control. Help.
 
 The current release **only** has the decapitalization, but the rest of the features in the list are being worked on.
+
+There are two patches:
+
+- **Cam's Yellow Decapitalization+** (CYD+_v*n.n*.bps) - The full hack with all the bells and whistles
+- **Cam's Yellow Decapitalization-** (CYD-_v*n.n*.bps) - Just the decapitalization
 
 Patching requires a ROM of Pokémon Yellow (CRC32: `7d527d62`). I recommend using [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) if you don't feel like downloading any software.
 
@@ -28,18 +38,22 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 - **Running Shoes** - Hold B to run. Doesn't have any of the other bells and whistles that some other versions do (i.e. you can't "run" on the bike or while Surfing)
 - **Double-speed Surfing**
 - **Overworld HM Use**
-- X **Pikachu's Beach Without Surf** (or maybe letting Pikachu learn Surf? don't quote me on this)
+- **Pikachu's Beach Without a Surfing Pikachu**
 - **Gendered Pokémon** - No gameplay effect, but should be accurate for gen 2 transfers (tested with my team from my main file)
 - **"Already Caught" Icon**
 - **Shiny Pokémon** - Also just visual, but should also be accurate for gen 2 transfers. Includes a shiny icon in-battle and in menus for DMG players
 
-### Spaceworld '97 Sprites
+### Maybe features I'm not sure about
 
-Supplied as an extra patch to be applied on top of a patched CYD+ ROM (probably works on CYD- too, yet to be tested)
+- G/S SW97 battle sprites - Probably not. Maybe. Maybe if I have it in me to redraw the back sprites
 
 ### No bugfixes unless absolutely necessary
 
 I believe that the jank is a core part of gen 1's identity, so I won't be fixing bugs unless I *need* to in order to implement another feature.
+
+## Known issues
+
+- Pikachu can get left behind if you run across area boundaries
 
 ## Branches
 
