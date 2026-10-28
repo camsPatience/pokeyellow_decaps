@@ -33,9 +33,9 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 - **"Already Caught" Icon**
 - **Shiny Pokémon** - Also just visual, but should also be accurate for gen 2 transfers. Includes a shiny icon in-battle and in menus for DMG players
 
-### Spaceworld '97 Sprites
+### Maybe features I'm not sure about
 
-Supplied as an extra patch to be applied on top of a patched CYD+ ROM (probably works on CYD- too, yet to be tested)
+- G/S SW97 battle sprites - Probably not. Maybe. Maybe if I have it in me to redraw the back sprites
 
 ### No bugfixes unless absolutely necessary
 
