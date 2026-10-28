@@ -41,6 +41,10 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 
 I believe that the jank is a core part of gen 1's identity, so I won't be fixing bugs unless I *need* to in order to implement another feature.
 
+## Known issues
+
+- Pikachu can get left behind if you run across area boundaries
+
 ## Branches
 
 ### `master`
