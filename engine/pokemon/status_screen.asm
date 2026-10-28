@@ -164,6 +164,9 @@ StatusScreen:
 	call PrintNumber ; ID Number
 	ld d, STATUS_SCREEN_STATS_BOX
 	call PrintStatsBox
+	ld a, [wLoadedMonSpecies]
+	ld [wGenderTemp], a
+	call PrintGenderStatusScreen
 	call Delay3
 	call GBPalNormal
 	hlcoord 1, 0
@@ -487,4 +490,19 @@ StatusScreen_PrintPP:
 	add hl, de
 	dec c
 	jr nz, StatusScreen_PrintPP
+	ret
+
+PrintGenderStatusScreen:
+	ld de, wLoadedMonDVs
+	farcall GetMonGender
+	ld a, [wGenderTemp]
+	and a
+	ret z
+	dec a
+	ld a, '♂'
+	jr z, .ok
+	ld a, '♀'
+.ok
+	coord hl, 18, 2
+	ld [hl], a
 	ret

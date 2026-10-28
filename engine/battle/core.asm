@@ -1900,6 +1900,7 @@ DrawPlayerHUDAndHPBar:
 	hlcoord 10, 7
 	call CenterMonName
 	call PlaceString
+	call PrintPlayerMonGender
 	ld hl, wBattleMonSpecies
 	ld de, wLoadedMon
 	ld bc, wBattleMonDVs - wBattleMonSpecies
@@ -1980,6 +1981,7 @@ DrawEnemyHUDAndHPBar:
 	hlcoord 1, 0
 	call CenterMonName
 	call PlaceString
+	call PrintEnemyMonGender
 	hlcoord 4, 1
 	push hl
 	inc hl
@@ -6850,4 +6852,33 @@ PlayMoveAnimation:
 	call Delay3
 	predef MoveAnimation
 	callfar SaveScreenTilesAndTransferBGMap
+	ret
+
+PrintPlayerMonGender:
+	ld a, [wBattleMonSpecies]
+	ld de, wBattleMonDVs
+	coord hl, 17, 8
+	jr PrintGenderCommon
+
+PrintEnemyMonGender:
+	ld a, [wEnemyMonSpecies]
+	ld de, wEnemyMonDVs
+	coord hl, 9, 1
+PrintGenderCommon:
+	ld [wGenderTemp], a
+	push hl
+	farcall GetMonGender
+	ld a, [wGenderTemp]
+	and a
+	jr z, .genderless
+	dec a
+	ld a, "♂"
+	jr z, .ok
+	ld a, "♀"
+	jr .ok
+.genderless
+	ld a, " "
+.ok
+	pop hl
+	ld [hl], a
 	ret

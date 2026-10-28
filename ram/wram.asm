@@ -968,6 +968,7 @@ wBadgeOrFaceTiles:: ds NUM_BADGES + 1
 wTempObtainedBadgesBooleans:: ds NUM_BADGES
 
 NEXTU
+wGenderTemp::
 wUnusedCreditsByte:: db
 ; the number of credits mons that have been displayed so far
 wNumCreditsMonsDisplayed:: db

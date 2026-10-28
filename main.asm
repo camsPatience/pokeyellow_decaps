@@ -109,6 +109,7 @@ SECTION "bank7", ROMX
 
 INCLUDE "engine/movie/oak_speech/clear_save.asm"
 INCLUDE "engine/events/elevator.asm"
+INCLUDE "engine/mon_gender.asm" ; Bank 7 seems to have enough space for this idk
 
 
 SECTION "Hidden Events 1", ROMX
