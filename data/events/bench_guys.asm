@@ -1,6 +1,6 @@
 MACRO bench_guy_text
 	db \1, \2
-	db_tx_pre \3
+	;db_tx_pre \3
 ENDM
 
 BenchGuyTextPointers:
@@ -19,5 +19,5 @@ BenchGuyTextPointers:
 	bench_guy_text ROCK_TUNNEL_POKECENTER,       SPRITE_FACING_LEFT, RockTunnelPokecenterBenchGuyText
 	bench_guy_text SAFARI_ZONE_WEST_REST_HOUSE,  SPRITE_FACING_LEFT, UnusedBenchGuyText1
 	bench_guy_text SAFARI_ZONE_EAST_REST_HOUSE,  SPRITE_FACING_LEFT, UnusedBenchGuyText2
-	bench_guy_text SAFARI_ZONE_NORTH_REST_HOUSE, SPRITE_FACING_LEFT, UnusedBenchGuyText3
+	;bench_guy_text SAFARI_ZONE_NORTH_REST_HOUSE, SPRITE_FACING_LEFT, UnusedBenchGuyText3
 	db -1 ; end

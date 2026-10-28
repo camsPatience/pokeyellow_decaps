@@ -29,6 +29,9 @@ UsedCut:
 	ld [wCutTile], a
 	ld a, 1
 	ld [wActionResultOrTookBattleTurn], a ; used cut
+	ld a, [wSearchedMove]
+	cp CUT
+	jr z, .usedCutFromOverworld
 	ld a, [wWhichPokemon]
 	ld hl, wPartyMonNicks
 	call GetPartyMonName
@@ -51,6 +54,7 @@ UsedCut:
 	call LoadScreenTilesFromBuffer2
 	ld hl, wStatusFlags5
 	res BIT_NO_TEXT_DELAY, [hl]
+.usedCutFromOverworld
 	ld a, $ff
 	ld [wUpdateSpritesEnabled], a
 	call InitCutAnimOAM

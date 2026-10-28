@@ -32,6 +32,16 @@ _CableClubNPCMakingPreparationsText::
 	cont "Please wait."
 	done
 
+_RequiresStrengthText::
+	text "A #mon may be"
+	line "able to move this."
+	done
+
+_LikeToUseStrengthText::
+	text "Would you like to"
+	line "use Strength?"
+	done
+
 _FlashLightsAreaText::
 	text "A blinding Flash"
 	line "lights the area!"
@@ -85,6 +95,30 @@ _CanMoveBouldersText::
 	text " can"
 	line "move boulders."
 	prompt
+
+_BouldersCanBeMovedText::
+	text "Boulders can now"
+	line "be moved."
+	done
+
+_TreeCanBeCutText::
+	text "This tree can be"
+	line "cut."
+	done
+
+_LikeToUseCutText::
+	text "Would you like to"
+	line "use Cut?"
+	done
+
+_WaterIsCalmText::
+	text "The water is calm."
+	done
+
+_LikeToUseSurfText::
+	text "Would you like to"
+	line "use Surf?"
+	done
 
 _CurrentTooFastText::
 	text "The current is"

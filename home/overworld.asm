@@ -88,12 +88,17 @@ OverworldLoopLessDelay::
 	jp nz, .noDirectionButtonsPressed
 	call IsPlayerCharacterBeingControlledByGame
 	jr nz, .checkForOpponent
+	ld a, [wWalkBikeSurfState]
+	ld [wWalkBikeSurfStateCopy], a
+	cp 2
+	jr z, .checkNextTileForSprite
 	call CheckForHiddenEventOrBookshelfOrCardKeyDoor
 	ldh a, [hItemAlreadyFound]
 	and a
 	jp z, OverworldLoop ; jump if a hidden event or bookshelf was found, but not if a card key door was found
 	xor a
 	ld [wPlayerIsTalkingToPikachu], a
+.checkNextTileForSprite
 	call IsSpriteOrSignInFrontOfPlayer
 	call IsPlayerTalkingToPikachu
 	ldh a, [hTextID]

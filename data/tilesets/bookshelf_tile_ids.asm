@@ -22,4 +22,17 @@ BookshelfTileIDs:
 	bookshelf_tile LOBBY,        $50, PokemonStuffText
 	bookshelf_tile LOBBY,        $52, PokemonStuffText
 	bookshelf_tile SHIP,         $36, BookOrSculptureText
+	bookshelf_tile OVERWORLD,    $14, CalmWaterText			; begin list of water tiles
+	bookshelf_tile OVERWORLD,    $32, CalmWaterText
+	bookshelf_tile FOREST,       $14, CalmWaterText
+	bookshelf_tile FOREST,       $48, CalmWaterText
+	bookshelf_tile GYM,          $14, CalmWaterText
+	bookshelf_tile SHIP,         $14, CalmWaterText
+	bookshelf_tile SHIP_PORT,    $14, CalmWaterText
+	bookshelf_tile CAVERN,       $14, CalmWaterText
+	bookshelf_tile FACILITY,     $14, CalmWaterText
+	bookshelf_tile PLATEAU,      $14, CalmWaterText
+	bookshelf_tile PLATEAU,      $32, CalmWaterText
+	bookshelf_tile OVERWORLD,    $3D, CutTreeText			; begin list of Cut tree tiles
+	bookshelf_tile GYM,          $50, CutTreeText
 	db -1 ; end

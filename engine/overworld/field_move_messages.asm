@@ -1,4 +1,4 @@
-PrintStrengthText:
+PrintStrengthText::
 	ld hl, wStatusFlags1
 	set BIT_STRENGTH_ACTIVE, [hl]
 	ld hl, UsedStrengthText
@@ -18,7 +18,63 @@ CanMoveBouldersText:
 	text_far _CanMoveBouldersText
 	text_end
 
-IsSurfingAllowed:
+CheckPartyForMove::
+	push de
+	ld a, [wSearchedMove]
+	ld d, a
+	ld e, 1
+	ld hl, wPartyMon1Moves
+	push hl
+.getNumMoves
+	ld c, NUM_MOVES
+.checkCurrentMonMoves
+	ld a, [hli]
+	cp d
+	jr z, .checkIfStrength
+	dec c
+	jr nz, .checkCurrentMonMoves
+.prepNextMonMoves
+	inc e
+	ld a, [wPartyCount]
+	cp e
+	jr c, .done
+	pop hl
+	ld bc, wPartyMon2 - wPartyMon1
+	add hl, bc
+	push hl
+	jr .getNumMoves
+.checkIfStrength
+	ld a, d
+	cp STRENGTH
+	jr nz, .getMonName
+	ld hl, wPartySpecies
+	ld a, e
+	dec a
+	jr z, .loadMonCry
+.getMonCry
+	inc hl
+	dec a
+	jr nz, .getMonCry
+.loadMonCry
+	ld a, [hl]
+	ld [wCurPartySpecies], a
+.getMonName
+	ld hl, wPartyMon1Nick
+	ld a, e
+	dec a
+	jr z, .loadMonName
+	ld bc, wPartyMon2Nick - wPartyMon1Nick
+	call AddNTimes
+.loadMonName
+	ld de, wNameBuffer
+	ld bc, 11
+	call CopyData
+	and a
+.done
+	pop de
+	ret
+
+IsSurfingAllowed::
 ; Returns whether surfing is allowed in BIT_SURF_ALLOWED of wStatusFlags1.
 ; Surfing isn't allowed on the Cycling Road or in the lowest level of the
 ; Seafoam Islands before the current has been slowed with boulders.
