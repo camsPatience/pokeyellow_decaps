@@ -21,15 +21,27 @@ You can be a girl now. :thumbsup:
 
 Dialogue is either adjusted based on your gender, or neutralized (hopefully without losing the original intent too much!). You can change your gender any time at the Viridian Pokémon Center by talking to your favorite cis ally, the Gym Guide.
 
-### Running Shoes
+### Various quality-of-life
 
-Hold B to run when you're walking on land. Surfing is faster, too!
+(These are in-progress; unfinished features are prefixed with an [X])
 
-(Potential issue: Pikachu nearly gets left behind a lot of the time. I haven't seen him fully leave the screen in my testing, but you never know...)
+- **Running Shoes** - Hold B to run. Doesn't have any of the other bells and whistles that some other versions do (i.e. you can't "run" on the bike or while Surfing)
+- **Double-speed Surfing**
+- [X] **Overworld HM Use**
+- [X] **Pikachu's Beach Without Surf** (or maybe letting Pikachu learn Surf? don't quote me on this)
 
-### Spaceworld 1997 sprites? Maybe?
+### "Maybe" features I haven't decided on yet
 
-I haven't actually decided if I'm doing this but it's a maybe thing
+(Features added should ideally be ones that maintain full vanilla compatibility. Mons *should* be able to be traded to other gen 1 games and transferred to gen 2+ without issue)
+
+- **Shiny Pokémon**
+- **Gendered Pokémon**
+- **Spaceworld '97 Sprites**
+- **"Already Caught" Battle HUD Icon**
+
+### No bugfixes unless absolutely necessary
+
+I believe that the jank is a core part of gen 1's identity, so I won't be fixing bugs unless I *need* to in order to implement another feature.
 
 ## Branches
 
