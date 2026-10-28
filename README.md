@@ -32,13 +32,17 @@ I haven't actually decided if I'm doing this but it's a maybe thing
 
 ## Branches
 
+### `minus`
+
+The decapitalization alone
+
 ### `gender`
 
 Working branch for implementing gender
 
-### `minus`
+### `runningshoes`
 
-The decapitalization alone
+Working branch for implementing running
 
 ## Credits
 ### Gender

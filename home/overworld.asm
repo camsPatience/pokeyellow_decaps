@@ -241,6 +241,19 @@ OverworldLoopLessDelay::
 	xor a
 	ld [wPikachuCollisionCounter], a
 	call DoBikeSpeedup
+	ld a, [wWalkBikeSurfState]
+	cp $02
+	jr z, .faster
+	ld a, [hJoyHeld]
+	and PAD_B
+	jr z, .next
+	ld a, [wWalkBikeSurfState]
+	dec a
+	jr z, .next
+	jr .faster
+.faster
+	call AdvancePlayerSprite
+.next
 	call AdvancePlayerSprite
 	ld a, [wWalkCounter]
 	and a
