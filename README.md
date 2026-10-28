@@ -29,6 +29,7 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 - **Double-speed Surfing**
 - **Overworld HM Use**
 - X **Pikachu's Beach Without Surf** (or maybe letting Pikachu learn Surf? don't quote me on this)
+- **"Already Caught" Icon**
 
 ### "Maybe" features I haven't decided on yet
 
@@ -37,7 +38,6 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 - **Shiny Pokémon**
 - **Gendered Pokémon**
 - **Spaceworld '97 Sprites**
-- **"Already Caught" Battle HUD Icon**
 
 ### No bugfixes unless absolutely necessary
 
