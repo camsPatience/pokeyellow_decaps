@@ -101,6 +101,10 @@ ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
 endif
 
+ifeq ($(DMGSHINY),1)
+RGBASMFLAGS += -D _DMGSHINY
+endif
+
 $(pokeyellow_debug_obj): RGBASMFLAGS += -D _DEBUG
 $(pokeyellow_vc_obj):    RGBASMFLAGS += -D _YELLOW_VC
 

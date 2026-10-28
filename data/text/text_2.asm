@@ -1277,6 +1277,10 @@ _GrewLevelText::
 	text "!@"
 	text_end
 
+_WhatsThisText::
+	text "Oh!"
+	done
+
 _SuperEffectiveText::
 	text "It's super"
 	line "effective!"

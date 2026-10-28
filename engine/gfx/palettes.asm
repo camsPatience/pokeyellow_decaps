@@ -513,7 +513,7 @@ GetPal_Pikachu::
 	ld a, PAL_GRAYMON - 1
 	jr .town
 
-CheckForShinyMon:
+CheckForShinyMon::
 ; given a Mon's DVs in hl, alters the value in wShinyMon
 ; wShinyMon = 1 loads a shiny palette
 ; wShinyMon = 0 loads a standard palette
@@ -548,7 +548,7 @@ CheckForShinyMon:
 	pop hl ; clears DVs from stack prior to exit
 	ret
 
-IsolateDVAndCheckIfShinyValue:
+IsolateDVAndCheckIfShinyValue::
 	and $0f
 	cp $a
 	ret
