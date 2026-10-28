@@ -2,12 +2,35 @@ PrintBeginningBattleText:
 	ld a, [wIsInBattle]
 	dec a
 	jr nz, .trainerBattle
+; we'll be moving various Pokemon Tower-related checks to come first
+; check first if fighting Ghost Marowak
+	CheckEvent EVENT_FIGHTING_GHOST_MAROWAK
+	jp nz, .isMarowak ; jump if opponent is Ghost Marowak
+; next check if player has Silph Scope
+; if Silph Scope is in bag, treat as standard encounter
+	ld b, SILPH_SCOPE
+	call IsItemInBag
+	jr nz, .notPokemonTower
+; if no Silph Scope, check if player is in Pokemon Tower
 	ld a, [wCurMap]
 	cp POKEMON_TOWER_3F
 	jr c, .notPokemonTower
 	cp POKEMON_TOWER_7F + 1
-	jr c, .pokemonTower
+; this jump only occurs if in Pokemon Tower with no Silph Scope
+	jr c, .noSilphScope
 .notPokemonTower
+	ld a, [wShinyMon]
+	and a
+	jr z, .standardBattleIntro
+	callfar DrawAllPokeballs
+	ld hl, WhatsThisText
+	call PrintText
+	ld a, SFX_LEVEL_UP
+	call PlaySound
+	call WaitForSoundToFinish
+	ld c, 20
+	call DelayFrames
+.standardBattleIntro
 	ld a, [wBattleType]
 	cp BATTLE_TYPE_PIKACHU
 	jr nz, .notPikachuBattle
@@ -44,18 +67,6 @@ PrintBeginningBattleText:
 .doNotDrawPokeballs
 	call PrintText
 	jr .done
-.pokemonTower
-	ld b, SILPH_SCOPE
-	call IsItemInBag
-	ld a, [wEnemyMonSpecies2]
-	ld [wCurPartySpecies], a
-	cp RESTLESS_SOUL
-	jr z, .isMarowak
-	ld a, b
-	and a
-	jr z, .noSilphScope
-	callfar LoadEnemyMonData
-	jr .notPokemonTower
 .noSilphScope
 	ld hl, EnemyAppearedText
 	call PrintText
@@ -63,8 +74,8 @@ PrintBeginningBattleText:
 	call PrintText
 	jr .done
 .isMarowak
-	ld a, b
-	and a
+	ld b, SILPH_SCOPE
+	call IsItemInBag
 	jr z, .noSilphScope
 	ld hl, EnemyAppearedText
 	call PrintText
@@ -72,8 +83,11 @@ PrintBeginningBattleText:
 	call PrintText
 	callfar LoadEnemyMonData
 	callfar MarowakAnim
+	ld a, MAROWAK
+	call PlayCry
 	ld hl, WildMonAppearedText
 	call PrintText
+	jr .done
 
 .playSFX
 	xor a
@@ -256,4 +270,8 @@ PrintComeBackText:
 
 ComeBackText:
 	text_far _ComeBackText
+	text_end
+
+WhatsThisText:
+	text_far _WhatsThisText
 	text_end
