@@ -6441,7 +6441,8 @@ LoadPlayerBackPic:
 	ASSERT BANK(LeafPicBack) == BANK(OldManPicBack)
 	ASSERT BANK(RedPicBack) == BANK(ProfOakPicBack)
 	call UncompressSpriteFromDE
-	predef ScaleSpriteByTwo
+	;predef ScaleSpriteByTwo
+	call LoadBackSpriteUnzoomed
 	ld hl, wShadowOAM
 	xor a
 	ldh [hOAMTile], a ; initial tile number
@@ -6475,8 +6476,8 @@ LoadPlayerBackPic:
 	ld e, a
 	dec b
 	jr nz, .loop
-	ld de, vBackPic
-	call InterlaceMergeSpriteBuffers
+	;ld de, vBackPic
+	;call InterlaceMergeSpriteBuffers
 	ld a, BANK("Sprite Buffers")
 	call OpenSRAM
 	ld hl, vSprites
