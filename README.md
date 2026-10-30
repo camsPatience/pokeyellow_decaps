@@ -33,8 +33,6 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 
 ### Various quality-of-life
 
-(These are in-progress; unfinished features are prefixed with an X)
-
 - **Running Shoes** - Hold B to run. Doesn't have any of the other bells and whistles that some other versions do (i.e. you can't "run" on the bike or while Surfing)
 - **Double-speed Surfing**
 - **Overworld HM Use**
@@ -43,9 +41,9 @@ Dialogue is either adjusted based on your gender, or neutralized (hopefully with
 - **"Already Caught" Icon**
 - **Shiny Pokémon** - Also just visual, but should also be accurate for gen 2 transfers. Includes a shiny icon in-battle and in menus for DMG players
 
-### Maybe features I'm not sure about
+### GS Spaceworld '97 Sprites (Optional)
 
-- G/S SW97 battle sprites - Probably not. Maybe. Maybe if I have it in me to redraw the back sprites
+This is supplied as an extra patch to be applied on top of a ROM patched with CYD+
 
 ### No bugfixes unless absolutely necessary
 
@@ -53,7 +51,7 @@ I believe that the jank is a core part of gen 1's identity, so I won't be fixing
 
 ## Known issues
 
-- Pikachu can get left behind if you run across area boundaries
+- Pikachu's sprites glitch out a bit if you cross area boundaries while running
 
 ## Branches
 
