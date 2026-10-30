@@ -11,6 +11,29 @@ MtMoonPokecenter_TextPointers:
 	dw_const MtMoonPokecenterClipboardText,        TEXT_MTMOONPOKECENTER_CLIPBOARD
 	dw_const MtMoonPokecenterLinkReceptionistText, TEXT_MTMOONPOKECENTER_LINK_RECEPTIONIST
 	dw_const MtMoonPokecenterChanseyText,          TEXT_MTMOONPOKECENTER_CHANSEY
+	dw_const MtMoonPokeCenterHRTText,              TEXT_MTMOONPOKECENTER_HRT
+
+MtMoonPokeCenterHRTText:
+	text_asm
+	ld hl, .PokeCenterHRTText1
+	call PrintText ; show it
+	call BoyGirlChoice2 ; added routine at the end of this file
+		ld a, [wCurrentMenuItem]
+		and a
+		ld [wPlayerGender], a ; store gender. 00 for boy, 01 for girl, 02 for enby
+		jr nz, .next
+.next
+	ld hl, .PokeCenterHRTText2
+	call PrintText ; show it
+	jp TextScriptEnd
+
+.PokeCenterHRTText1: ; Make the compiler shut up
+	text_far _PokeCenterHRTText1
+	text_end
+
+.PokeCenterHRTText2: ; Make the compiler shut up
+	text_far _PokeCenterHRTText2
+	text_end
 
 MtMoonPokecenterNurseText:
 	script_pokecenter_nurse

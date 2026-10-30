@@ -22,6 +22,29 @@ IndigoPlateauLobby_TextPointers:
 	dw_const IndigoPlateauLobbyClerkText,            TEXT_INDIGOPLATEAULOBBY_CLERK
 	dw_const IndigoPlateauLobbyLinkReceptionistText, TEXT_INDIGOPLATEAULOBBY_LINK_RECEPTIONIST
 	dw_const IndigoPlateauLobbyChanseyText,          TEXT_INDIGOPLATEAULOBBY_CHANSEY
+	dw_const IndigoPlateauLobbyHRTText,              TEXT_INDIGOPLATEAULOBBY_HRT
+
+IndigoPlateauLobbyHRTText:
+	text_asm
+	ld hl, .PokeCenterHRTText1
+	call PrintText ; show it
+	call BoyGirlChoice2 ; added routine at the end of this file
+		ld a, [wCurrentMenuItem]
+		and a
+		ld [wPlayerGender], a ; store gender. 00 for boy, 01 for girl, 02 for enby
+		jr nz, .next
+.next
+	ld hl, .PokeCenterHRTText2
+	call PrintText ; show it
+	jp TextScriptEnd
+
+.PokeCenterHRTText1: ; Make the compiler shut up
+	text_far _PokeCenterHRTText1
+	text_end
+
+.PokeCenterHRTText2: ; Make the compiler shut up
+	text_far _PokeCenterHRTText2
+	text_end
 
 IndigoPlateauLobbyNurseText:
 	script_pokecenter_nurse
@@ -41,3 +64,6 @@ IndigoPlateauLobbyChanseyText:
 	text_asm
 	callfar PokecenterChanseyText
 	jp TextScriptEnd
+
+IndigoPlateauLobbyClerkText:
+	script_mart ULTRA_BALL, GREAT_BALL, FULL_RESTORE, MAX_POTION, FULL_HEAL, REVIVE, MAX_REPEL
