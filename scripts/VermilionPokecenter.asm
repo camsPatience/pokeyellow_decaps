@@ -9,6 +9,29 @@ VermilionPokecenter_TextPointers:
 	dw_const VermilionPokecenterSailorText,           TEXT_VERMILIONPOKECENTER_SAILOR
 	dw_const VermilionPokecenterLinkReceptionistText, TEXT_VERMILIONPOKECENTER_LINK_RECEPTIONIST
 	dw_const VermilionPokecenterChanseyText,          TEXT_VERMILIONPOKECENTER_CHANSEY
+	dw_const VermilionPokeCenterHRTText,              TEXT_VERMILIONPOKECENTER_HRT
+
+VermilionPokeCenterHRTText:
+	text_asm
+	ld hl, .PokeCenterHRTText1
+	call PrintText ; show it
+	call BoyGirlChoice2 ; added routine at the end of this file
+		ld a, [wCurrentMenuItem]
+		and a
+		ld [wPlayerGender], a ; store gender. 00 for boy, 01 for girl, 02 for enby
+		jr nz, .next
+.next
+	ld hl, .PokeCenterHRTText2
+	call PrintText ; show it
+	jp TextScriptEnd
+
+.PokeCenterHRTText1: ; Make the compiler shut up
+	text_far _PokeCenterHRTText1
+	text_end
+
+.PokeCenterHRTText2: ; Make the compiler shut up
+	text_far _PokeCenterHRTText2
+	text_end
 
 VermilionPokecenterNurseText:
 	script_pokecenter_nurse

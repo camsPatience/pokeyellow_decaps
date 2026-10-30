@@ -38,3 +38,22 @@ DisplayYesNoChoice::
 	ld [wTextBoxID], a
 	call DisplayTextBoxID
 	jp LoadScreenTilesFromBuffer1
+
+; displays boy/girl choice
+BoyGirlChoice2::
+	call SaveScreenTilesToBuffer1
+	call InitBoyGirlTextBoxParameters2
+	jr DisplayBoyGirlChoice2
+
+InitBoyGirlTextBoxParameters2::
+   ld a, $1 ; loads the value for the unused North/West choice, that was changed to say Boy/Girl
+   ld [wTwoOptionMenuID], a
+   coord hl, 13, 7
+   ld bc, $80e
+   ret
+
+DisplayBoyGirlChoice2::
+   ld a, $14
+   ld [wTextBoxID], a
+   call DisplayTextBoxID
+   jp LoadScreenTilesFromBuffer1

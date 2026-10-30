@@ -514,9 +514,13 @@ PikachuMovementState_ProcessCommand:
 	ld [hl], a
 	cp $4
 	jp z, PikachuDoubleStep
-	call AreThereAtLeastTwoStepsInPikachuFollowCommandBuffer
-	jp c, FastPikachuFollow
-	jp NormalPikachuFollow
+	;call AreThereAtLeastTwoStepsInPikachuFollowCommandBuffer
+	ld a, [hJoyHeld]
+	and PAD_B
+	jp z, NormalPikachuFollow
+	jp FastPikachuFollow
+	;jp c, FastPikachuFollow
+	;jp NormalPikachuFollow
 
 PikachuMovementCommandData:
 	db  0,  0
@@ -1466,7 +1470,7 @@ AreThereAtLeastTwoStepsInPikachuFollowCommandBuffer:
 	ld a, [wPikachuFollowCommandBufferSize]
 	cp $ff
 	ret z
-	cp $1
+	cp $2
 	jr nc, .set_carry
 	and a
 	ret

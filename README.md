@@ -29,7 +29,7 @@ Some examples of what to expect:
 ### Gender
 You can be a girl now. :thumbsup:
 
-Dialogue is either adjusted based on your gender, or neutralized (hopefully without losing the original intent too much!). You can change your gender any time at the Viridian Pokémon Center by talking to your favorite cis ally, the Gym Guide.
+Dialogue is either adjusted based on your gender, or neutralized (hopefully without losing the original intent too much!). You can change your gender any time at any Pokémon Center by talking to your favorite cis ally, the Gym Guide.
 
 ### Various quality-of-life
 
@@ -48,10 +48,6 @@ This is supplied as an extra patch to be applied on top of a ROM patched with CY
 ### No bugfixes unless absolutely necessary
 
 I believe that the jank is a core part of gen 1's identity, so I won't be fixing bugs unless I *need* to in order to implement another feature.
-
-## Known issues
-
-- Pikachu's sprites glitch out a bit if you cross area boundaries while running
 
 ## Branches
 

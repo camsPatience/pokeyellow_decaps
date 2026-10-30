@@ -15,7 +15,7 @@ _ViridianPokecenterCooltrainerMText::
 	line "any money either!"
 	done
 
-_ViridianPokeCenterHRTText1::
+_PokeCenterHRTText1::
 	text "Yo! Champ in"
 	line "making!"
 
@@ -25,10 +25,10 @@ _ViridianPokeCenterHRTText1::
 	cont "it out?"
 	done
 
-_ViridianPokeCenterHRTText2::
+_PokeCenterHRTText2::
 	text "You got it,"
 	line "champ!"
 
 	para "You'll feel brand"
-	line "new right away!"
+	line "new in no time!"
 	done

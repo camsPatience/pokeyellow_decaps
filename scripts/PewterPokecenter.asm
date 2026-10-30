@@ -13,6 +13,29 @@ PewterPokecenter_TextPointers:
 	dw_const PewterPokecenterLinkReceptionistText, TEXT_PEWTERPOKECENTER_LINK_RECEPTIONIST
 	dw_const PewterPokecenterCooltrainerFText,     TEXT_PEWTERPOKECENTER_COOLTRAINER_F
 	dw_const PewterPokecenterChanseyText,          TEXT_PEWTERPOKECENTER_CHANSEY
+	dw_const PewterPokeCenterHRTText,              TEXT_PEWTERPOKECENTER_HRT
+
+PewterPokeCenterHRTText:
+	text_asm
+	ld hl, .PokeCenterHRTText1
+	call PrintText ; show it
+	call BoyGirlChoice2 ; added routine at the end of this file
+		ld a, [wCurrentMenuItem]
+		and a
+		ld [wPlayerGender], a ; store gender. 00 for boy, 01 for girl, 02 for enby
+		jr nz, .next
+.next
+	ld hl, .PokeCenterHRTText2
+	call PrintText ; show it
+	jp TextScriptEnd
+
+.PokeCenterHRTText1: ; Make the compiler shut up
+	text_far _PokeCenterHRTText1
+	text_end
+
+.PokeCenterHRTText2: ; Make the compiler shut up
+	text_far _PokeCenterHRTText2
+	text_end
 
 PewterPokecenterNurseText:
 	script_pokecenter_nurse
