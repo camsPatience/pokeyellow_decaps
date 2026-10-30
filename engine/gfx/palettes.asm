@@ -666,6 +666,10 @@ LoadSGB:
 	ld a, $1
 	ld [wOnSGB], a
 .onDMG
+	ld a, $1
+	ld [wOnSGB], a 	; Lie about being on SGB anyway, so that shiny sparkles work.
+					; This hack is dumb but I'm not skilled enough to write my own
+					; shiny implementation yet.
 	ret
 .onSGB
 	ld a, $1

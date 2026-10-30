@@ -275,11 +275,7 @@ INCLUDE "engine/battle/battle_transitions.asm"
 INCLUDE "engine/items/town_map.asm"
 INCLUDE "engine/gfx/mon_icons.asm"
 INCLUDE "engine/events/in_game_trades.asm"
-IF DEF(_DMGSHINY)
-	INCLUDE "engine/gfx/palettes_dmg.asm" ; Identical to palettes.asm except it lies about the fact that you're definitely on SGB
-ELSE
-	INCLUDE "engine/gfx/palettes.asm"
-ENDC
+INCLUDE "engine/gfx/palettes.asm"
 INCLUDE "engine/menus/save.asm"
 
 SECTION "bank1D", ROMX
