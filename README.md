@@ -7,12 +7,11 @@
 
 A hack of Pokémon Yellow (forked from pret's pokeyellow decompilation) which started from a decapitalization, and is slowly spiralling out of my control. Help.
 
-The current release **only** has the decapitalization, but the rest of the features in the list are being worked on.
+There are three patches:
 
-There are two patches:
-
-- **Cam's Yellow Decapitalization+** (CYD+_v*n.n*.bps) - The full hack with all the bells and whistles
-- **Cam's Yellow Decapitalization-** (CYD-_v*n.n*.bps) - Just the decapitalization
+- **Cam's Yellow Decapitalization+** (CYD+_v`n.n`.bps) - The full hack with all the bells and whistles
+    - **Spaceworld '97 Sprites Addon** (CYD+_v`n.n`_+SW.bps) - Apply this on top of the main patch to replace sprites with art from the G/S Spaceworld 1997 demo
+- **Cam's Yellow Decapitalization-** (CYD-_v`n.n`.bps) - Just the decapitalization
 
 Patching requires a ROM of Pokémon Yellow (CRC32: `7d527d62`). I recommend using [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) if you don't feel like downloading any software.
 
@@ -54,6 +53,10 @@ I believe that the jank is a core part of gen 1's identity, so I won't be fixing
 ### `master`
 
 Main branch with all features
+
+### `sw97art`
+
+Spaceworld '97 sprites branch
 
 ### `minus`
 
