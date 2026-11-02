@@ -1229,7 +1229,7 @@ _SubstituteTookDamageText::
 
 _SubstituteBrokeText::
 	text "<TARGET>'s"
-	line "SUBSTITUTE broke!"
+	line "Substitute broke!"
 	prompt
 
 _BuildingRageText::
