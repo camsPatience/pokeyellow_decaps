@@ -7,8 +7,6 @@
 
 A hack of Pokémon Yellow (forked from pret's pokeyellow decompilation) which started from a decapitalization, and is slowly spiralling out of my control. Help.
 
-The current release **only** has the decapitalization, but the rest of the features in the list are being worked on.
-
 There are three patches:
 
 - **Cam's Yellow Decapitalization+** (CYD+_v`n.n`.bps) - The full hack with all the bells and whistles
@@ -55,6 +53,10 @@ I believe that the jank is a core part of gen 1's identity, so I won't be fixing
 ### `master`
 
 Main branch with all features
+
+### `sw97art`
+
+Spaceworld '97 sprites branch
 
 ### `minus`
 

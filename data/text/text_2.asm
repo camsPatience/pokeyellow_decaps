@@ -1255,7 +1255,7 @@ _GainedText::
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
+	text "with EXP. All,"
 	cont "@"
 	text_end
 
