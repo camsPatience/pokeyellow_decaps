@@ -1235,7 +1235,7 @@ _SubstituteTookDamageText::
 
 _SubstituteBrokeText::
 	text "<TARGET>'s"
-	line "SUBSTITUTE broke!"
+	line "Substitute broke!"
 	prompt
 
 _BuildingRageText::
@@ -1261,7 +1261,7 @@ _GainedText::
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
+	text "with Exp. All,"
 	cont "@"
 	text_end
 
