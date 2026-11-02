@@ -38,7 +38,7 @@ _FuchsiaCitySignText::
 	done
 
 _FuchsiaCitySafariGameSignText::
-	text "Safari"
+	text "Safari Game"
 	line "POKéMON-U-CATCH!"
 	done
 
